@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <g transform="translate(10, 10)">
+    <path d="M5 25 C10 10 25 5 35 15 C25 20 20 35 5 25 Z" fill="#005B94"/>
+    <path d="M15 32 C22 22 35 20 38 28 C30 30 25 40 15 32 Z" fill="#0080C9"/>
+  </g>
+  <text x="58" y="38" font-family="Arial, sans-serif" font-size="26" font-weight="900" fill="#005B94" letter-spacing="1">Beretta</text>
+  <text x="60" y="49" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#718096" letter-spacing="1.5">CLIMA &amp; CALDAIE</text>
+</svg>

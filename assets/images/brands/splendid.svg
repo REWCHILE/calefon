@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <g transform="translate(10, 8)">
+    <path d="M12 0 C18 8 22 14 22 22 C22 32 14 38 6 38 C-2 38 -4 30 2 24 C4 22 6 22 6 18 C6 14 12 0 12 0 Z" fill="#E53E3E"/>
+    <path d="M10 12 C14 16 16 20 16 25 C16 30 11 34 7 34 C3 34 3 29 6 26 C8 24 9 22 9 19 C9 16 10 12 10 12 Z" fill="#F6AD55"/>
+  </g>
+  <text x="45" y="36" font-family="'Arial Black', Impact, sans-serif" font-size="26" font-weight="900" fill="#0A3871" letter-spacing="-0.5">SPLENDID</text>
+  <text x="50" y="48" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#E53E3E" letter-spacing="1.5">CONFORT &amp; AGUA CALIENTE</text>
+</svg>

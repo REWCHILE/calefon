@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <circle cx="32" cy="30" r="24" fill="#C41230"/>
+  <path d="M22 34 C25 24 35 18 42 22 C37 26 31 34 22 34 Z" fill="#FFFFFF"/>
+  <text x="68" y="38" font-family="'Arial Black', sans-serif" font-size="28" font-weight="900" font-style="italic" fill="#C41230" letter-spacing="-1">Rheem</text>
+  <text x="70" y="50" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#4A5568" letter-spacing="1.5">THE NEW DEGREE OF COMFORT</text>
+</svg>

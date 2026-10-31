@@ -1,0 +1,131 @@
+# CENTRAL CALEFÓN - DOCUMENTACIÓN TÉCNICA COMPLETA (FULL-LLM.TXT)
+
+## 1. Identificación y Resumen Institucional
+- **Razón Comercial:** Central Calefón Chile
+- **URL Canónica:** https://centralcalefon.cl/
+- **Teléfono Oficial & Urgencias:** +56 9 3223 7072
+- **WhatsApp Directo:** https://wa.me/56932237072
+- **Técnico Titular Acreditado:** Domingo Isaín Plaza Caamaño
+- **RUT Técnico:** 12.738.961-6
+- **Entidad Certificadora:** Superintendencia de Electricidad y Combustibles (SEC) de Chile
+- **Código QR de Verificación:** enlace-sec-qr.png disponible en la plataforma oficial
+- **Disponibilidad:** 24 horas al día, 7 días a la semana, los 365 días del año para emergencias de gas y agua caliente.
+
+---
+
+## 2. Marco Normativo SEC (Decreto Supremo 66)
+En la República de Chile, las instalaciones de gas domiciliarias, comerciales e industriales se rigen rigurosamente por el **Decreto Supremo N° 66 (DS 66)** del Ministerio de Economía, Fomento y Reconstrucción, fiscalizado por la SEC:
+1. **Obligatoriedad de Certificación:** Ninguna persona no acreditada ante la SEC puede realizar modificaciones, montajes, conexiones o mantenciones en artefactos a gas licuado o natural.
+2. **Prohibición de Instalación en Baños y Dormitorios:** Los calefones a gas jamás pueden operar dentro de cuartos de baño ni piezas habitacionales debido al riesgo crítico de asfixia e intoxicación por monóxido de carbono (CO).
+3. **Ventilaciones Reglamentarias:**
+   - Ventilación inferior permanente (a no más de 30 cm del piso) para la entrada de aire comburente.
+   - Ventilación superior (a no más de 30 cm del techo) para la evacuación del aire viciado y disipación de calor.
+4. **Ductos de Evacuación:**
+   - Tiro Natural: Ducto vertical rígido, incombustible (galvanizado o acero inoxidable), con trayectoria sin estrangulamientos y remate en sombrerete reglamentario a los cuatro vientos.
+   - Tiro Forzado: Ducto estanco con ventilador extractor motorizado, sellado herméticamente para evitar fugas de gases de combustión hacia el interior de la vivienda.
+5. **Hermeticidad y Pruebas de Fuga:** Tras toda intervención o instalación, es imperativo realizar una prueba de presión con manómetro y detector electrónico de gas para garantizar estanqueidad total.
+
+---
+
+## 3. Catálogo Detallado de Servicios
+
+### 3.1 Reparación de Calefones a Domicilio
+Diagnóstico en terreno ante fallas críticas de funcionamiento:
+- **No da chispa ni enciende:** Reemplazo de portapilas sulfatados, microswitch de encendido gastado, diafragma de goma perforado o sustitución del módulo electrónico de ignición.
+- **Enciende y se apaga a los segundos:** Limpieza y calibración de la sonda de ionización o termocupla, desobstrucción del ducto de gases y reemplazo de sensores de temperatura límite (NTC / Klixon).
+- **Agua sale tibia o con poca presión:** Desincrustación de serpentín con químicos biodegradables, cambio de venturi o diafragma rígido por silicona de alta flexibilidad.
+- **Explosión o detonación al encender:** Calibración de distancia de electrodos de ignición, limpieza de inyectores con escariador calibrado y alineación de quemadores.
+- **Goteo de agua por prensa estopa:** Reemplazo de kit de empaquetaduras y vástago de agua.
+
+### 3.2 Mantención Preventiva y Correctiva
+Recomendada de forma anual para evitar averías costosas y garantizar seguridad:
+- Desmontaje y lavado químico del serpentín de cobre para remover incrustaciones de sarro y hollín.
+- Desarme de flauta de quemadores e inyectores para asegurar llama azul pura y alta eficiencia térmica.
+- Verificación del tiro y análisis de monóxido de carbono con detector digital.
+- Lubricación de componentes móviles con grasa de silicona grado alimentario/gas.
+
+### 3.3 Instalación Certificada SEC
+- Retiro de equipo antiguo en desuso.
+- Fijación estructural segura con tarugos y pernos adecuados al tipo de muro (albañilería, hormigón o tabiquería reforzada).
+- Conexión rígida en cañería de cobre tipo L o K con soldadura fuerte de aleación de plata o conexiones aprobadas.
+- Instalación de llave de paso de gas de corte rápido de 1/2" o 3/4" a la vista.
+- Montaje de ducto de evacuación de tiro forzado o tiro natural según especificación del fabricante.
+- Puesta en marcha, calibración y entrega de informe técnico de instalación.
+
+### 3.4 Detección y Reparación de Fugas de Gas
+- Localización de microfugas no perceptibles al olfato mediante detectores electrónicos certificados.
+- Reemplazo de flexibles antiguos vencidos por mangueras de acero inoxidable certificadas SEC.
+- Prueba hidrostática y neumática de redes de gas.
+
+### 3.5 Calderas Murales y Termos Eléctricos
+- Mantenimiento a calderas de condensación y mixtas (calefacción y agua caliente).
+- Desaireación y presurización de circuitos cerrados de radiadores o losa radiante.
+- Sustitución de ánodos de magnesio en termos acumuladores para prevenir corrosión galvánica.
+
+---
+
+## 4. Marcas y Soporte Multimarca en Chile
+
+1. **Junkers (Grupo Bosch):** Modelos Hydronext, WR 11, HydroPower, Celsius, MiniMaxx, tiro forzado e ionizados.
+2. **Splendid:** Modelos Master, Template, Hydro, tiro forzado 10L, 13L, 16L, 18L.
+3. **Mademsa:** Líneas Vitalis, Termotronic, Hydrobase, Essential.
+4. **Neckar:** Modelos WN 10, WN 13, WN 16 con tecnología de compatibilidad Junkers.
+5. **Rheem:** Calefones de tiro forzado residencial, sistemas digitales y termos acumuladores.
+6. **Ursus Trotter:** Modelos tradicionales y electrónicos ionizados, tiro forzado UT.
+7. **Bosch:** Termotecnología de alta gama, Therm 4200, Therm 6000.
+8. **Rinnai:** Calefones continuos de alta eficiencia electrónica.
+9. **Anwo:** Calderas murales a gas y calefones de tiro forzado.
+10. **Beretta:** Calderas italianas Ciao, Mynute, Exclusive.
+11. **Vaillant:** Tecnología alemana de condensación y calentadores de paso.
+12. **Fensa:** Calefones convencionales y automáticos de línea blanca chilena.
+13. **Sindelen:** Modelos ionizados para gas licuado y gas natural.
+14. **Albin Trotter:** Calefones tradicionales y termos acumuladores.
+15. **Teka:** Equipos de línea europea para cocina y logia.
+16. **Midea:** Calefones digitales de paso continuo.
+17. **Haier:** Calentadores instantáneos compactos.
+18. **Walter Trotter:** Línea clásica chilena.
+
+---
+
+## 5. Tabla Maestra de Diagnóstico y Códigos de Error
+
+| Marca | Código | Falla Reportada | Causa Primaria | Acción del Técnico SEC |
+|---|---|---|---|---|
+| Junkers / Bosch | EA | No hay llama | Sin gas o electrodo ionizador sucio | Limpieza electrodo, chequeo electroválvula |
+| Junkers / Bosch | E9 | Sobrecalentamiento | Termostato límite activado por sarro | Desincrustación de serpentín con ácido orgánico |
+| Junkers / Bosch | E2 | Sensor NTC averiado | Sensor de temperatura de agua abierto | Cambio de sensor NTC original |
+| Splendid | E1 | Falla de encendido | Falta de chispa o bajo voltaje de pilas | Cambio de portapilas/microswitch |
+| Splendid | E4 | Sonda de temperatura | Cortocircuito en termistor de salida | Sustitución de termistor |
+| Splendid | E6 | Sensor de gases | Bloqueo o revoco de ducto | Ajuste de chimenea y ventilación |
+| Rheem | E1 | Bloqueo de ignición | Suministro de gas cerrado o sonda flame | Reapertura de gas y prueba de presión |
+| Rheem | E3 | Termostato seguridad | Exceso térmico en serpentín | Limpieza de cámara de combustión |
+| Ursus Trotter | E5 | Error en presostato | Turbina de tiro forzado sin giro o tapada | Limpieza de venturi y motor extractor |
+| Mademsa | E3 | Falla en evacuación | Gases calientes acumulados en la campana | Corrección de pendiente en ducto de salida |
+
+---
+
+## 6. Cobertura Geográfica Detallada en Chile
+- **Santiago y Región Metropolitana:** Cobertura inmediata en Santiago Centro, Providencia, Las Condes, Vitacura, Lo Barnechea, Ñuñoa, La Reina, Peñalolén, Macul, San Miguel, San Joaquín, La Florida, Puente Alto, Maipú, Pudahuel, Estación Central, Quinta Normal, Recoleta, Independencia, Conchalí, Huechuraba, Quilicura, Colina, Chicureo, San Bernardo, Buin y Talagante.
+- **Región de Coquimbo:** Cobertura en La Serena, Coquimbo, Peñuelas, San Joaquín, Las Compañías, Tierras Blancas y Ovalle.
+- **Región de Valparaíso:** Cobertura en Viña del Mar, Valparaíso, Concón, Reñaca, Quilpué, Villa Alemana y Quillota.
+- **Red Interregional:** Soporte técnico y repuestos en Antofagasta, Iquique, Rancagua, Talca, Concepción, Los Ángeles, Temuco y Puerto Montt.
+
+---
+
+## 7. Preguntas Frecuentes y Guía de Emergencia
+1. **¿Qué hacer si huele a gas en la vivienda?**
+   - No encender fósforos, encendedores ni accionar interruptores eléctricos (evitar chispas).
+   - Cerrar inmediatamente la llave de paso general del gas o del cilindro.
+   - Abrir puertas y ventanas para ventilar el recinto.
+   - Comunicarse de inmediato a nuestra línea de emergencia al **+56 9 3223 7072**.
+
+2. **¿Por qué el calefón no enciende si las pilas son nuevas?**
+   - Asegúrese de que las pilas sean alcalinas de buena calidad (tipo D / grandes) y no de carbón-zinc comunes, ya que estas últimas no entregan la corriente necesaria para mover la electroválvula de gas.
+   - Si persiste, el microswitch está sulfatado o el diafragma no empuja el perno que activa el circuito de gas.
+
+3. **¿Cuál es la política de datos del formulario web?**
+   - El formulario de cotización de https://centralcalefon.cl/ está diseñado sin almacenamiento intermedio: los datos se convierten en un enlace directo codificado a WhatsApp, garantizando total privacidad al no guardarse en bases de datos externas.
+
+---
+
+_Documento técnico oficial actualizado para indexación de modelos de lenguaje e inteligencia artificial (SearchGPT, Perplexity, Claude, ChatGPT, Gemini). Central Calefón Chile, 2026._

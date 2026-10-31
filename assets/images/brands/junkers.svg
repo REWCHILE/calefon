@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" rx="8" fill="#ffffff" fill-opacity="0"/>
+  <path d="M18 15 L28 15 L28 36 C28 42 24 45 18 45 C12 45 8 42 8 36 L15 36 C15 39 16 40 18 40 C20 40 21 39 21 36 L21 21 L18 21 Z" fill="#003B70"/>
+  <path d="M35 15 L42 15 L42 34 C42 38 45 40 49 40 C53 40 56 38 56 34 L56 15 L63 15 L63 34 C63 42 57 45 49 45 C41 45 35 42 35 34 Z" fill="#003B70"/>
+  <path d="M71 15 L78 15 L91 35 L91 15 L98 15 L98 45 L91 45 L78 25 L78 45 L71 45 Z" fill="#003B70"/>
+  <path d="M106 15 L113 15 L113 27 L124 15 L133 15 L121 28 L134 45 L125 45 L115 32 L113 34 L113 45 L106 45 Z" fill="#003B70"/>
+  <path d="M140 15 L161 15 L161 21 L147 21 L147 27 L159 27 L159 33 L147 33 L147 39 L161 39 L161 45 L140 45 Z" fill="#003B70"/>
+  <path d="M168 15 L184 15 C191 15 195 19 195 24 C195 28 192 31 187 32 L196 45 L187 45 L179 33 L175 33 L175 45 L168 45 Z M175 21 L175 28 L183 28 C186 28 188 27 188 24.5 C188 22 186 21 183 21 Z" fill="#003B70"/>
+  <circle cx="12" cy="18" r="4" fill="#E21A1A"/>
+  <text x="100" y="55" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#718096" text-anchor="middle" letter-spacing="2">GRUPO BOSCH</text>
+</svg>
