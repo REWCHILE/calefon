@@ -10,7 +10,7 @@ if (!isset($currentPage)) {
     $currentPage = 'home';
 }
 if (!isset($canonicalUrl)) {
-    $canonicalUrl = "https://centralcalefon.cl/" . (($currentPage === 'home') ? '' : $currentPage . '.php');
+    $canonicalUrl = "https://centralcalefon.cl/" . (($currentPage === 'home') ? '' : $currentPage);
 }
 $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
 ?>
@@ -223,7 +223,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
   <header class="site-header">
     <div class="container header-container">
       <!-- Logotipo e Identidad -->
-      <a href="index.php" class="brand-logo-wrap" title="Central Calefón Chile - Inicio">
+      <a href="/" class="brand-logo-wrap" title="Central Calefón Chile - Inicio">
         <img src="logotipo-central-calefon.webp" alt="Logotipo Central Calefón Gasfíter Certificado SEC" class="brand-logo-img" width="52" height="52">
         <div class="brand-title-box">
           <div class="brand-title">CENTRAL <span>CALEFÓN</span></div>
@@ -233,13 +233,13 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
 
       <!-- Menú Desktop -->
       <nav class="nav-menu-desktop" aria-label="Navegación Principal">
-        <a href="index.php" class="nav-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>">Inicio</a>
-        <a href="index.php#marcas" class="nav-link">Marcas</a>
-        <a href="index.php#servicios" class="nav-link">Servicios</a>
-        <a href="index.php#diagnostico" class="nav-link">Diagnóstico Falla</a>
-        <a href="index.php#tipos" class="nav-link">Tiro Forzado / Tipos</a>
-        <a href="nosotros.php" class="nav-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">Nosotros</a>
-        <a href="contacto.php" class="nav-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">Contacto</a>
+        <a href="/" class="nav-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>">Inicio</a>
+        <a href="/#marcas" class="nav-link">Marcas</a>
+        <a href="/#servicios" class="nav-link">Servicios</a>
+        <a href="/#diagnostico" class="nav-link">Diagnóstico Falla</a>
+        <a href="/#tipos" class="nav-link">Tiro Forzado / Tipos</a>
+        <a href="nosotros" class="nav-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">Nosotros</a>
+        <a href="contacto" class="nav-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">Contacto</a>
       </nav>
 
       <!-- Botones de Acción Rápida -->
@@ -279,28 +279,28 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
       </div>
 
       <div class="drawer-body">
-        <a href="index.php" class="drawer-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>">
+        <a href="/" class="drawer-link <?php echo ($currentPage === 'home') ? 'active' : ''; ?>">
           <i class="fa-solid fa-house"></i> Inicio
         </a>
-        <a href="index.php#marcas" class="drawer-link">
+        <a href="/#marcas" class="drawer-link">
           <i class="fa-solid fa-tags"></i> Marcas de Calefón
         </a>
-        <a href="index.php#servicios" class="drawer-link">
+        <a href="/#servicios" class="drawer-link">
           <i class="fa-solid fa-screwdriver-wrench"></i> Reparación &amp; Mantención
         </a>
-        <a href="index.php#diagnostico" class="drawer-link">
+        <a href="/#diagnostico" class="drawer-link">
           <i class="fa-solid fa-stethoscope"></i> Diagnóstico de Averías
         </a>
-        <a href="index.php#tipos" class="drawer-link">
+        <a href="/#tipos" class="drawer-link">
           <i class="fa-solid fa-fire-flame-curved"></i> Tiro Forzado / Ionizado
         </a>
-        <a href="index.php#faq" class="drawer-link">
+        <a href="/#faq" class="drawer-link">
           <i class="fa-solid fa-circle-question"></i> Preguntas Frecuentes
         </a>
-        <a href="nosotros.php" class="drawer-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">
+        <a href="nosotros" class="drawer-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">
           <i class="fa-solid fa-user-shield"></i> Nosotros (Certificación SEC)
         </a>
-        <a href="contacto.php" class="drawer-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">
+        <a href="contacto" class="drawer-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">
           <i class="fa-solid fa-envelope"></i> Contacto Directo
         </a>
 

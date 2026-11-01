@@ -32,12 +32,12 @@
         <div class="footer-col">
           <h4>Servicios Técnicos</h4>
           <ul class="footer-links">
-            <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Reparación Especializada de Calefones</a></li>
-            <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Mantención Preventiva y Descalcificación</a></li>
-            <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Instalación Certificada SEC Norma DS 66</a></li>
-            <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Detección y Fugas de Gas GLP/GN</a></li>
-            <li><a href="index.php#tipos"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Calefones Tiro Forzado &amp; Ionizados</a></li>
-            <li><a href="index.php#diagnostico"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Diagnóstico Rápido de Averías</a></li>
+            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Reparación Especializada de Calefones</a></li>
+            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Mantención Preventiva y Descalcificación</a></li>
+            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Instalación Certificada SEC Norma DS 66</a></li>
+            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Detección y Fugas de Gas GLP/GN</a></li>
+            <li><a href="/#tipos"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Calefones Tiro Forzado &amp; Ionizados</a></li>
+            <li><a href="/#diagnostico"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Diagnóstico Rápido de Averías</a></li>
           </ul>
         </div>
 
@@ -45,12 +45,12 @@
         <div class="footer-col">
           <h4>Marcas en Chile</h4>
           <ul class="footer-links">
-            <li><a href="index.php#marcas">Junkers (Bosch) &amp; Bosch</a></li>
-            <li><a href="index.php#marcas">Splendid &amp; Mademsa</a></li>
-            <li><a href="index.php#marcas">Neckar &amp; Rheem</a></li>
-            <li><a href="index.php#marcas">Ursus Trotter &amp; Albin Trotter</a></li>
-            <li><a href="index.php#marcas">Rinnai, Anwo &amp; Beretta</a></li>
-            <li><a href="index.php#marcas">Vaillant, Fensa &amp; Sindelen</a></li>
+            <li><a href="/#marcas">Junkers (Bosch) &amp; Bosch</a></li>
+            <li><a href="/#marcas">Splendid &amp; Mademsa</a></li>
+            <li><a href="/#marcas">Neckar &amp; Rheem</a></li>
+            <li><a href="/#marcas">Ursus Trotter &amp; Albin Trotter</a></li>
+            <li><a href="/#marcas">Rinnai, Anwo &amp; Beretta</a></li>
+            <li><a href="/#marcas">Vaillant, Fensa &amp; Sindelen</a></li>
           </ul>
         </div>
 
@@ -122,8 +122,8 @@
         <div style="display: flex; gap: 1.25rem;">
           <a href="llm.txt" target="_blank" style="color: #64748b; font-size: 0.8rem;">llm.txt</a>
           <a href="full-llm.txt" target="_blank" style="color: #64748b; font-size: 0.8rem;">full-llm.txt</a>
-          <a href="nosotros.php" style="color: #94a3b8;">Certificado SEC</a>
-          <a href="contacto.php" style="color: #94a3b8;">Contacto</a>
+          <a href="nosotros" style="color: #94a3b8;">Certificado SEC</a>
+          <a href="contacto" style="color: #94a3b8;">Contacto</a>
         </div>
       </div>
     </div>

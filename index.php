@@ -967,24 +967,46 @@ require_once __DIR__ . '/includes/header.php';
         <h3><i class="fa-solid fa-location-dot"></i> Región Metropolitana (Santiago)</h3>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Atención en todas las comunas del Gran Santiago:</p>
         <ul class="coverage-list">
-          <li>Santiago Centro</li>
-          <li>Las Condes</li>
-          <li>Providencia</li>
-          <li>Ñuñoa</li>
-          <li>Vitacura</li>
-          <li>La Reina</li>
-          <li>Maipú</li>
-          <li>La Florida</li>
-          <li>Puente Alto</li>
-          <li>San Miguel</li>
-          <li>Macul</li>
-          <li>Peñalolén</li>
-          <li>Independencia</li>
-          <li>Recoleta</li>
-          <li>Estación Central</li>
-          <li>Quilicura</li>
-          <li>Pudahuel</li>
-          <li>Colina / Chicureo</li>
+          <li><a href="servicio-tecnico-calefon-santiago">Santiago Centro</a></li>
+          <li><a href="servicio-tecnico-calefon-las-condes">Las Condes</a></li>
+          <li><a href="servicio-tecnico-calefon-providencia">Providencia</a></li>
+          <li><a href="servicio-tecnico-calefon-nunoa">Ñuñoa</a></li>
+          <li><a href="servicio-tecnico-calefon-vitacura">Vitacura</a></li>
+          <li><a href="servicio-tecnico-calefon-la-reina">La Reina</a></li>
+          <li><a href="servicio-tecnico-calefon-maipu">Maipú</a></li>
+          <li><a href="servicio-tecnico-calefon-la-florida">La Florida</a></li>
+          <li><a href="servicio-tecnico-calefon-puente-alto">Puente Alto</a></li>
+          <li><a href="servicio-tecnico-calefon-san-miguel">San Miguel</a></li>
+          <li><a href="servicio-tecnico-calefon-macul">Macul</a></li>
+          <li><a href="servicio-tecnico-calefon-penalolen">Peñalolén</a></li>
+          <li><a href="servicio-tecnico-calefon-independencia">Independencia</a></li>
+          <li><a href="servicio-tecnico-calefon-recoleta">Recoleta</a></li>
+          <li><a href="servicio-tecnico-calefon-estacion-central">Estación Central</a></li>
+          <li><a href="servicio-tecnico-calefon-quilicura">Quilicura</a></li>
+          <li><a href="servicio-tecnico-calefon-pudahuel">Pudahuel</a></li>
+          <li><a href="servicio-tecnico-calefon-colina">Colina / Chicureo</a></li>
+          <li><a href="servicio-tecnico-calefon-san-bernardo">San Bernardo</a></li>
+          <li><a href="servicio-tecnico-calefon-san-joaquin">San Joaquín</a></li>
+          <li><a href="servicio-tecnico-calefon-renca">Renca</a></li>
+          <li><a href="servicio-tecnico-calefon-lo-barnechea">Lo Barnechea</a></li>
+          <li><a href="servicio-tecnico-calefon-pedro-aguirre-cerda">Pedro Aguirre Cerda</a></li>
+          <li><a href="servicio-tecnico-calefon-padre-hurtado">Padre Hurtado</a></li>
+          <li><a href="servicio-tecnico-calefon-buin">Buin</a></li>
+          <li><a href="servicio-tecnico-calefon-paine">Paine</a></li>
+          <li><a href="servicio-tecnico-calefon-pirque">Pirque</a></li>
+          <li><a href="servicio-tecnico-calefon-lampa">Lampa</a></li>
+          <li><a href="servicio-tecnico-calefon-huechuraba">Huechuraba</a></li>
+          <li><a href="servicio-tecnico-calefon-quinta-normal">Quinta Normal</a></li>
+          <li><a href="servicio-tecnico-calefon-cerrillos">Cerrillos</a></li>
+          <li><a href="servicio-tecnico-calefon-el-bosque">El Bosque</a></li>
+          <li><a href="servicio-tecnico-calefon-la-cisterna">La Cisterna</a></li>
+          <li><a href="servicio-tecnico-calefon-la-pintana">La Pintana</a></li>
+          <li><a href="servicio-tecnico-calefon-lo-espejo">Lo Espejo</a></li>
+          <li><a href="servicio-tecnico-calefon-lo-prado">Lo Prado</a></li>
+          <li><a href="servicio-tecnico-calefon-san-ramon">San Ramón</a></li>
+          <li><a href="servicio-tecnico-calefon-talagante">Talagante</a></li>
+          <li><a href="servicio-tecnico-calefon-penaflor">Peñaflor</a></li>
+          <li><a href="servicio-tecnico-calefon-melipilla">Melipilla</a></li>
         </ul>
       </div>
 
@@ -993,14 +1015,14 @@ require_once __DIR__ . '/includes/header.php';
         <h3><i class="fa-solid fa-location-dot"></i> Región de Coquimbo</h3>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Móviles locales en la conurbación:</p>
         <ul class="coverage-list">
-          <li>La Serena</li>
-          <li>Coquimbo</li>
-          <li>San Joaquín</li>
-          <li>Peñuelas</li>
-          <li>Las Compañías</li>
-          <li>Tierras Blancas</li>
-          <li>Ovalle</li>
-          <li>Vicuña</li>
+          <li><a href="servicio-tecnico-calefon-la-serena">La Serena</a></li>
+          <li><a href="servicio-tecnico-calefon-coquimbo">Coquimbo</a></li>
+          <li><a href="servicio-tecnico-calefon-san-joaquin-la-serena">San Joaquín</a></li>
+          <li><a href="servicio-tecnico-calefon-penuelas">Peñuelas</a></li>
+          <li><a href="servicio-tecnico-calefon-las-companias">Las Compañías</a></li>
+          <li><a href="servicio-tecnico-calefon-tierras-blancas">Tierras Blancas</a></li>
+          <li><a href="servicio-tecnico-calefon-ovalle">Ovalle</a></li>
+          <li><a href="servicio-tecnico-calefon-vicuna">Vicuña</a></li>
         </ul>
       </div>
 
@@ -1009,13 +1031,17 @@ require_once __DIR__ . '/includes/header.php';
         <h3><i class="fa-solid fa-location-dot"></i> Región de Valparaíso</h3>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Zona costera y ciudades del interior:</p>
         <ul class="coverage-list">
-          <li>Viña del Mar</li>
-          <li>Valparaíso</li>
-          <li>Concón</li>
-          <li>Reñaca</li>
-          <li>Quilpué</li>
-          <li>Villa Alemana</li>
-          <li>Quillota</li>
+          <li><a href="servicio-tecnico-calefon-vina-del-mar">Viña del Mar</a></li>
+          <li><a href="servicio-tecnico-calefon-valparaiso">Valparaíso</a></li>
+          <li><a href="servicio-tecnico-calefon-concon">Concón</a></li>
+          <li><a href="servicio-tecnico-calefon-renaca">Reñaca</a></li>
+          <li><a href="servicio-tecnico-calefon-quilpue">Quilpué</a></li>
+          <li><a href="servicio-tecnico-calefon-villa-alemana">Villa Alemana</a></li>
+          <li><a href="servicio-tecnico-calefon-quillota">Quillota</a></li>
+          <li><a href="servicio-tecnico-calefon-la-calera">La Calera</a></li>
+          <li><a href="servicio-tecnico-calefon-san-antonio">San Antonio</a></li>
+          <li><a href="servicio-tecnico-calefon-los-andes">Los Andes</a></li>
+          <li><a href="servicio-tecnico-calefon-san-felipe">San Felipe</a></li>
         </ul>
       </div>
 
@@ -1024,13 +1050,20 @@ require_once __DIR__ . '/includes/header.php';
         <h3><i class="fa-solid fa-location-dot"></i> Cobertura Nacional</h3>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Red de asistencia técnica autorizada:</p>
         <ul class="coverage-list">
-          <li>Antofagasta</li>
-          <li>Iquique</li>
-          <li>Rancagua</li>
-          <li>Talca</li>
-          <li>Concepción</li>
-          <li>Temuco</li>
-          <li>Puerto Montt</li>
+          <li><a href="servicio-tecnico-calefon-antofagasta">Antofagasta</a></li>
+          <li><a href="servicio-tecnico-calefon-iquique">Iquique</a></li>
+          <li><a href="servicio-tecnico-calefon-arica">Arica</a></li>
+          <li><a href="servicio-tecnico-calefon-copiapo">Copiapó</a></li>
+          <li><a href="servicio-tecnico-calefon-rancagua">Rancagua</a></li>
+          <li><a href="servicio-tecnico-calefon-talca">Talca</a></li>
+          <li><a href="servicio-tecnico-calefon-curico">Curicó</a></li>
+          <li><a href="servicio-tecnico-calefon-chillan">Chillán</a></li>
+          <li><a href="servicio-tecnico-calefon-concepcion">Concepción</a></li>
+          <li><a href="servicio-tecnico-calefon-los-angeles">Los Ángeles</a></li>
+          <li><a href="servicio-tecnico-calefon-temuco">Temuco</a></li>
+          <li><a href="servicio-tecnico-calefon-valdivia">Valdivia</a></li>
+          <li><a href="servicio-tecnico-calefon-osorno">Osorno</a></li>
+          <li><a href="servicio-tecnico-calefon-puerto-montt">Puerto Montt</a></li>
         </ul>
       </div>
     </div>
