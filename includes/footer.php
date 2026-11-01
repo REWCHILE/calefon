@@ -32,7 +32,7 @@
         <div class="footer-col">
           <h4>Servicios Técnicos</h4>
           <ul class="footer-links">
-            <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Reparación de Calefones Urgente</a></li>
+            <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Reparación Especializada de Calefones</a></li>
             <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Mantención Preventiva y Descalcificación</a></li>
             <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Instalación Certificada SEC Norma DS 66</a></li>
             <li><a href="index.php#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Detección y Fugas de Gas GLP/GN</a></li>
@@ -63,17 +63,55 @@
           </p>
           <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">
             <i class="fa-brands fa-whatsapp" style="color: var(--color-whatsapp); margin-right: 8px;"></i>
-            <a href="https://wa.me/56932237072?text=Hola,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" style="color: #fff; font-weight: 700;">WhatsApp Directo 24/7</a>
+            <a href="https://wa.me/56932237072?text=Hola,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" style="color: #fff; font-weight: 700;">WhatsApp Directo</a>
           </p>
           <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.75rem;">
             <i class="fa-solid fa-map-location-dot" style="color: #38bdf8; margin-right: 8px;"></i>
-            Región Metropolitana (Santiago), La Serena, Coquimbo, Valparaíso, Viña del Mar y cobertura nacional.
+            Región Metropolitana (Santiago), La Serena, Coquimbo, Valparaíso, Viña del Mar y cobertura en todo Chile.
           </p>
           <div style="margin-top: 1rem;">
             <a href="contacto.php" class="btn btn-flame btn-sm" style="width: 100%;">
               <i class="fa-solid fa-calendar-check"></i> Agendar Visita Técnica
             </a>
           </div>
+        </div>
+      </div>
+
+      <!-- Cobertura Comunal y Posicionamiento SEO Local -->
+      <div class="footer-comunas-wrap" style="margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+        <h5 style="color: #cbd5e1; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem;">
+          <i class="fa-solid fa-map-location-dot" style="color: var(--color-flame); margin-right: 6px;"></i>
+          Servicio Técnico de Calefón por Comunas en Santiago y Regiones:
+        </h5>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.45rem 0.85rem; font-size: 0.82rem; line-height: 1.6;">
+          <a href="servicio-tecnico-calefon-penalolen/" style="color: #94a3b8;">Peñalolén</a>
+          <a href="servicio-tecnico-calefon-macul/" style="color: #94a3b8;">Macul</a>
+          <a href="servicio-tecnico-calefon-providencia/" style="color: #94a3b8;">Providencia</a>
+          <a href="servicio-tecnico-calefon-las-condes/" style="color: #94a3b8;">Las Condes</a>
+          <a href="servicio-tecnico-calefon-la-florida/" style="color: #94a3b8;">La Florida</a>
+          <a href="servicio-tecnico-calefon-nunoa/" style="color: #94a3b8;">Ñuñoa</a>
+          <a href="servicio-tecnico-calefon-santiago/" style="color: #94a3b8;">Santiago Centro</a>
+          <a href="servicio-tecnico-calefon-maipu/" style="color: #94a3b8;">Maipú</a>
+          <a href="servicio-tecnico-calefon-san-joaquin/" style="color: #94a3b8;">San Joaquín</a>
+          <a href="servicio-tecnico-calefon-estacion-central/" style="color: #94a3b8;">Estación Central</a>
+          <a href="servicio-tecnico-pedro-aguirre-cerda/" style="color: #94a3b8;">Pedro Aguirre Cerda</a>
+          <a href="servicio-tecnico-calefon-renca/" style="color: #94a3b8;">Renca</a>
+          <a href="servicio-tecnico-calefon-puente-alto/" style="color: #94a3b8;">Puente Alto</a>
+          <a href="servicio-tecnico-calefon-san-miguel/" style="color: #94a3b8;">San Miguel</a>
+          <a href="servicio-tecnico-calefon-la-reina/" style="color: #94a3b8;">La Reina</a>
+          <a href="servicio-tecnico-calefon-vitacura/" style="color: #94a3b8;">Vitacura</a>
+          <a href="servicio-tecnico-calefon-lo-barnechea/" style="color: #94a3b8;">Lo Barnechea</a>
+          <a href="servicio-tecnico-calefon-recoleta/" style="color: #94a3b8;">Recoleta</a>
+          <a href="servicio-tecnico-calefon-quilicura/" style="color: #94a3b8;">Quilicura</a>
+          <a href="servicio-tecnico-calefon-pudahuel/" style="color: #94a3b8;">Pudahuel</a>
+          <a href="servicio-tecnico-calefon-san-bernardo/" style="color: #94a3b8;">San Bernardo</a>
+          <a href="servicio-tecnico-calefon-buin/" style="color: #94a3b8;">Buin</a>
+          <a href="servicio-tecnico-calefon-paine/" style="color: #94a3b8;">Paine</a>
+          <a href="servicio-tecnico-calefon-pirque/" style="color: #94a3b8;">Pirque</a>
+          <a href="servicio-tecnico-calefon-padre-hurtado/" style="color: #94a3b8;">Padre Hurtado</a>
+          <a href="servicio-tecnico-calefon-colina/" style="color: #94a3b8;">Colina</a>
+          <a href="servicio-tecnico-autorizado-calefon/" style="color: #38bdf8; font-weight: 700;">Servicio Autorizado</a>
+          <a href="servicio-tecnico-especialista-en-calefon/" style="color: #ff8c42; font-weight: 700;">Especialista SEC</a>
         </div>
       </div>
 
@@ -92,7 +130,7 @@
   </footer>
 
   <!-- Botón Flotante WhatsApp -->
-  <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20necesito%20atenci%C3%B3n%20urgente%20para%20mi%20calef%C3%B3n" target="_blank" class="floating-whatsapp-btn" title="Contactar a Técnico SEC por WhatsApp" aria-label="WhatsApp Directo Central Calefón">
+  <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" class="floating-whatsapp-btn" title="Contactar a Técnico SEC por WhatsApp" aria-label="WhatsApp Directo Central Calefón">
     <i class="fa-brands fa-whatsapp"></i>
     <span class="floating-whatsapp-badge">1</span>
   </a>
@@ -103,7 +141,7 @@
       <a href="tel:+56932237072" class="btn btn-phone btn-sm">
         <i class="fa-solid fa-phone"></i> Llamar 9 3223 7072
       </a>
-      <a href="https://wa.me/56932237072?text=Hola,%20solicito%20t%C3%A9cnico%20a%20domicilio%20urgente" target="_blank" class="btn btn-whatsapp btn-sm">
+      <a href="https://wa.me/56932237072?text=Hola,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" class="btn btn-whatsapp btn-sm">
         <i class="fa-brands fa-whatsapp"></i> WhatsApp SEC
       </a>
     </div>

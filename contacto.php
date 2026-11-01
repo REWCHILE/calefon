@@ -9,12 +9,12 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Header de Página Contacto -->
 <section style="background: radial-gradient(circle at 80% 20%, #1e293b 0%, #0f172a 60%, #020617 100%); color: #fff; padding: 4rem 0 3rem 0; border-bottom: 3px solid var(--color-flame);">
   <div class="container text-center">
-    <span class="section-tag" style="color: #ff8c42;">Contacto Directo 24/7</span>
+    <span class="section-tag" style="color: #ff8c42;">Contacto Directo y Rápido</span>
     <h1 style="font-family: var(--font-heading); font-size: 2.75rem; font-weight: 800; line-height: 1.2; margin-bottom: 1rem;">
       Solicita Tu Técnico Gasfíter a Domicilio
     </h1>
     <p style="font-size: 1.15rem; color: #cbd5e1; max-width: 680px; margin: 0 auto;">
-      Coordinación rápida y sin intermediarios. Escríbenos directamente a nuestro WhatsApp oficial o llámanos para atención de urgencia.
+      Coordinación rápida y sin intermediarios. Escríbenos directamente a nuestro WhatsApp oficial o llámanos para atención técnica.
     </p>
   </div>
 </section>
@@ -39,7 +39,7 @@ require_once __DIR__ . '/includes/header.php';
             <i class="fa-solid fa-phone-volume"></i>
           </div>
           <div>
-            <h3 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.25rem;">Llamada de Emergencia</h3>
+            <h3 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.25rem;">Llamada Directa</h3>
             <p style="font-size: 0.85rem; color: #64748b; margin-bottom: 0.5rem;">Atención telefónica directa con técnico disponible:</p>
             <a href="tel:+56932237072" style="font-size: 1.3rem; font-weight: 800; color: #dc2626;">+56 9 3223 7072</a>
           </div>

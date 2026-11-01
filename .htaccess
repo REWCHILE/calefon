@@ -1,0 +1,23 @@
+# Central Calefón Chile - .htaccess
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# 1. Si el archivo o directorio existe físicamente, servirlo directamente
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# 2. Permitir páginas PHP sin extensión .php (ej. /nosotros -> /nosotros.php)
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]
+
+# 3. Enrutamiento de URLs de Comunas, Servicios y Marcas a landing.php
+RewriteRule ^(servicio-tecnico-[a-zA-Z0-9_-]+)/?$ landing.php?slug=$1 [L,QSA]
+RewriteRule ^(reparacion-[a-zA-Z0-9_-]+)/?$ landing.php?slug=$1 [L,QSA]
+RewriteRule ^(mantencion-[a-zA-Z0-9_-]+)/?$ landing.php?slug=$1 [L,QSA]
+RewriteRule ^(instalacion-[a-zA-Z0-9_-]+)/?$ landing.php?slug=$1 [L,QSA]
+</IfModule>
+
+# Fallback para rutas amigables en servidores sin RewriteRule
+ErrorDocument 404 /landing.php

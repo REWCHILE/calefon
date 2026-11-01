@@ -292,32 +292,24 @@ document.addEventListener('DOMContentLoaded', () => {
     if (autoScroll) {
       startAuto();
 
-      // PAUSA INMEDIATA AL POSAR EL MOUSE O LEER ENCIMA
+      // Pausa suave sólo al mantener el mouse encima, reanuda rápido al salir
       if (sliderContainer) {
         sliderContainer.addEventListener('mouseenter', () => {
-          stopAuto(true);
+          stopAuto(false);
         });
 
         sliderContainer.addEventListener('mouseleave', () => {
-          startAutoDelayed(1200);
+          startAutoDelayed(900);
         });
       }
 
       track.addEventListener('touchstart', () => {
-        stopAuto(true);
+        stopAuto(false);
       }, { passive: true });
 
       track.addEventListener('touchend', () => {
-        startAutoDelayed(2500);
+        startAutoDelayed(1500);
       }, { passive: true });
-
-      // Si el usuario posa el puntero sobre una tarjeta específica, se enfoca y resalta al instante
-      items.forEach((item, idx) => {
-        item.addEventListener('mouseenter', () => {
-          setActiveItem(idx, false);
-          stopAuto(true);
-        });
-      });
     }
 
     return {
@@ -330,14 +322,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // 1. Slider de Marcas de Calefón (Autoplay: 3000ms)
+  // 1. Slider de Marcas de Calefón (Autoplay continuo y fluido: 2000ms)
   const brandsSlider = setupResponsiveSlider({
     trackId: 'brandsSliderTrack',
     prevBtnId: 'brandsPrevBtn',
     nextBtnId: 'brandsNextBtn',
     statusId: 'brandsStatus',
     autoScroll: true,
-    autoScrollDelay: 3000
+    autoScrollDelay: 2000
   });
 
   // 2. Slider de Diagnóstico Rápido de Averías (Autoplay: 4200ms)

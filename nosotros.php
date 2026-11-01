@@ -117,7 +117,7 @@ require_once __DIR__ . '/includes/header.php';
         </div>
         <h3 style="font-family: var(--font-heading); font-size: 1.2rem; color: var(--color-primary); margin-bottom: 0.5rem;">Respuesta en el Día</h3>
         <p style="font-size: 0.92rem; color: #64748b; line-height: 1.6;">
-          Entendemos que estar sin agua caliente o con olor a gas es una urgencia vital: atendemos los 365 días del año.
+          Entendemos que estar sin agua caliente o con problemas en tu calefón es prioritario: atendemos con rápida coordinación en terreno.
         </p>
       </div>
     </div>

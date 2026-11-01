@@ -44,8 +44,8 @@ require_once __DIR__ . '/includes/header.php';
           <span>Gasfíter Autorizado SEC</span>
         </div>
         <div class="trust-bullet-item">
-          <div class="bullet-icon"><i class="fa-solid fa-bolt"></i></div>
-          <span>Atención Urgencias 24/7</span>
+          <div class="bullet-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+          <span>Atención en todo el territorio nacional</span>
         </div>
         <div class="trust-bullet-item">
           <div class="bullet-icon"><i class="fa-solid fa-gears"></i></div>
@@ -374,12 +374,12 @@ require_once __DIR__ . '/includes/header.php';
               Sientes olor a gas licuado o natural cerca del equipo, o notas filtración continua de agua debajo del cuerpo de agua.
             </p>
             <div class="diagnostic-solution-box" style="border-left-color: #dc2626;">
-              <strong>¡Atención de Urgencia!:</strong>
+              <strong>Acción Recomendada SEC:</strong>
               Cierra la llave de paso de gas de inmediato. Fuga en uniones, empaquetaduras quemadas o rotura de prensa estopa.
             </div>
           </div>
-          <button class="btn btn-flame btn-diagnostic-trigger" data-issue="URGENTE: Siento olor a gas o fuga de agua en mi calefón">
-            <i class="fa-solid fa-phone-volume"></i> Urgencia SEC Inmediata
+          <button class="btn btn-flame btn-diagnostic-trigger" data-issue="ATENCIÓN: Siento olor a gas o fuga de agua en mi calefón">
+            <i class="fa-solid fa-phone-volume"></i> Asistencia Prioritaria SEC
           </button>
         </div>
 
@@ -467,7 +467,7 @@ require_once __DIR__ . '/includes/header.php';
       <div class="slider-scroll-track" id="servicesSliderTrack">
         <!-- Servicio 1: Reparación -->
         <div class="service-slide-item">
-          <span class="service-badge badge-reparacion">Urgencias en el Día</span>
+          <span class="service-badge badge-reparacion">Atención en el Día</span>
           <h3>Reparación de Calefones</h3>
           <p>
             Diagnóstico certero y reparación inmediata en terreno. Cambiamos piezas defectuosas con repuestos legítimos de cada fabricante.
@@ -524,9 +524,9 @@ require_once __DIR__ . '/includes/header.php';
             <li><i class="fa-solid fa-check"></i> Escaneo digital de cañerías, flexibles y llaves de paso</li>
             <li><i class="fa-solid fa-check"></i> Soldadura de cañerías de cobre con aleación de plata</li>
             <li><i class="fa-solid fa-check"></i> Regularización de sellos y ventilaciones reglamentarias</li>
-            <li><i class="fa-solid fa-check"></i> Atención prioritaria 24/7 en emergencias de gas</li>
+            <li><i class="fa-solid fa-check"></i> Atención prioritaria en el día para problemas de gas</li>
           </ul>
-          <a href="tel:+56932237072" class="btn btn-phone">Llamar a Emergencia</a>
+          <a href="tel:+56932237072" class="btn btn-phone">Llamar a Asistencia Técnica</a>
         </div>
 
         <!-- Servicio 5: Calderas y Calefacción -->
@@ -821,19 +821,19 @@ require_once __DIR__ . '/includes/header.php';
           <div class="form-group">
             <label class="form-label" for="quoteServicio">Servicio Requerido</label>
             <select id="quoteServicio" name="servicio" class="form-control">
-              <option value="Reparación Urgente (No prende / Se apaga)">Reparación Urgente (No prende / Se apaga)</option>
+              <option value="Reparación en el Día (No prende / Se apaga)">Reparación en el Día (No prende / Se apaga)</option>
               <option value="Mantención Preventiva / Descalcificación de Sarro">Mantención Preventiva / Sarro</option>
               <option value="Instalación de Calefón Nuevo SEC">Instalación Nueva Certificada SEC</option>
-              <option value="Urgencia Fuga de Gas / Olor a Gas">Urgencia Fuga de Gas / Olor a Gas</option>
+              <option value="Fuga de Gas / Olor a Gas">Fuga de Gas / Olor a Gas</option>
               <option value="Reparación de Caldera Mural / Termo">Reparación Caldera / Termo</option>
             </select>
           </div>
           <div class="form-group">
-            <label class="form-label" for="quoteUrgencia">Nivel de Urgencia</label>
+            <label class="form-label" for="quoteUrgencia">Prioridad de Atención</label>
             <select id="quoteUrgencia" name="urgencia" class="form-control">
-              <option value="Urgente - Hoy Mismo">🚨 Urgente - Hoy Mismo</option>
+              <option value="Alta - Hoy Mismo">Hoy Mismo</option>
               <option value="Para Mañana">Para Mañana</option>
-              <option value="Esta Semana / Cotización">Esta Semana / Consulta</option>
+              <option value="Esta Semana / Consulta">Esta Semana / Consulta</option>
             </select>
           </div>
         </div>

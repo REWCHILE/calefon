@@ -4,12 +4,14 @@ if (!isset($pageTitle)) {
     $pageTitle = "Central Calefón | Servicio Técnico Gasfíter Certificado SEC a Domicilio Chile";
 }
 if (!isset($pageDescription)) {
-    $pageDescription = "Servicio técnico especialista en reparación, mantención e instalación de calefones y calderas a domicilio en Chile. Técnicos autorizados SEC. Cobertura nacional 24/7. Llama al +56 9 3223 7072.";
+    $pageDescription = "Servicio técnico especialista en reparación, mantención e instalación de calefones y calderas a domicilio en Chile. Técnicos autorizados SEC. Cobertura en todo el territorio nacional. Llama al +56 9 3223 7072.";
 }
 if (!isset($currentPage)) {
     $currentPage = 'home';
 }
-$canonicalUrl = "https://centralcalefon.cl/" . (($currentPage === 'home') ? '' : $currentPage . '.php');
+if (!isset($canonicalUrl)) {
+    $canonicalUrl = "https://centralcalefon.cl/" . (($currentPage === 'home') ? '' : $currentPage . '.php');
+}
 $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
 ?>
 <!DOCTYPE html>
@@ -20,7 +22,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
   <title><?php echo htmlspecialchars($pageTitle); ?></title>
   <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://centralcalefon.cl/<?php echo ($currentPage === 'home') ? '' : $currentPage . '.php'; ?>">
+  <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl); ?>">
   
   <!-- Open Graph / Facebook Debugger / WhatsApp / Redes Sociales -->
   <meta property="og:locale" content="es_CL">
@@ -34,7 +36,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Central Calefón Chile - Servicio Técnico Gasfíter Certificado SEC - Urgencias: +56 9 3223 7072">
+  <meta property="og:image:alt" content="Central Calefón Chile - Servicio Técnico Gasfíter Certificado SEC - Teléfono: +56 9 3223 7072">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -97,14 +99,49 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        "opens": "00:00",
-        "closes": "23:59"
+        "opens": "10:00",
+        "closes": "21:00"
       }
     ]
   }
   </script>
 
-  <!-- SCHEMA JSON-LD: Preguntas Frecuentes (FAQPage) -->
+  <?php if (isset($currentPage) && $currentPage === 'landing' && isset($matchedComuna)): ?>
+  <!-- SCHEMA JSON-LD: Preguntas Frecuentes Específicas de la Comuna (FAQPage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tarda en llegar el técnico a <?php echo htmlspecialchars($matchedComuna['nombre']); ?>?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Coordinamos visitas en el mismo día. Dependiendo del tráfico y sector, nuestros móviles suelen arribar en un rango de <?php echo htmlspecialchars($matchedComuna['tiempo']); ?> desde la confirmación por WhatsApp."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿El servicio en <?php echo htmlspecialchars($matchedComuna['nombre']); ?> incluye boleta y garantía formal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Entregamos boleta o factura legal y documento de garantía escrita por el trabajo ejecutado y los repuestos sustituidos, garantizando total respaldo y seguridad."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Los técnicos están acreditados ante la SEC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutamente. El servicio es supervisado por Domingo Isaín Plaza Caamaño, Instalador de Gas Clase 3 SEC (RUT 12.738.961-6), habilitado conforme a la legislación vigente en Chile."
+        }
+      }
+    ]
+  }
+  </script>
+  <?php else: ?>
+  <!-- SCHEMA JSON-LD: Preguntas Frecuentes Principales (FAQPage) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -139,7 +176,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
         "name": "¿Cuánto tarda la visita y reparación de un calefón a domicilio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Atendemos emergencias en el mismo día. La mayoría de las mantenciones y reparaciones de piezas comunes (diafragma, sensores, termocupla, limpieza de quemadores) se resuelven en 45 a 90 minutos en terreno, ya que nuestros móviles cuentan con repuestos originales multimarca."
+          "text": "Atendemos solicitudes con coordinación rápida en el mismo día. La mayoría de las mantenciones y reparaciones de piezas comunes (diafragma, sensores, termocupla, limpieza de quemadores) se resuelven en 45 a 90 minutos en terreno, ya que nuestros móviles cuentan con repuestos originales multimarca."
         }
       },
       {
@@ -161,15 +198,16 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
     ]
   }
   </script>
+  <?php endif; ?>
 </head>
 <body>
 
-  <!-- Top Bar de Emergencia y Confianza -->
-  <aside class="top-bar" aria-label="Aviso de Emergencias">
+  <!-- Top Bar de Confianza y Respuesta Rápida -->
+  <aside class="top-bar" aria-label="Atención Rápida">
     <div class="container top-bar-content">
       <div style="display: flex; align-items: center; gap: 0.75rem;">
         <span class="top-bar-badge">
-          <span class="pulse-dot"></span> Emergencias 24/7
+          <span class="pulse-dot"></span> Respuesta Rápida
         </span>
         <span>Atención a domicilio en todo Chile | Técnicos Certificados SEC</span>
       </div>
@@ -177,7 +215,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
         <a href="tel:+56932237072" class="top-bar-link">
           <i class="fa-solid fa-phone-volume"></i> 9 3223 7072
         </a>
-        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20necesito%20atenci%C3%B3n%20urgente%20a%20domicilio" target="_blank" class="top-bar-link" style="color: #4ade80;">
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" class="top-bar-link" style="color: #4ade80;">
           <i class="fa-brands fa-whatsapp"></i> WhatsApp Directo
         </a>
       </div>
