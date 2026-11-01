@@ -789,13 +789,21 @@ require_once __DIR__ . '/includes/header.php';
 }
 </script>
 
-<!-- Hero Section Localizado -->
-<section style="background: radial-gradient(circle at 80% 20%, #1e293b 0%, #0f172a 60%, #020617 100%); color: #fff; padding: 4.5rem 0 3.5rem 0; border-bottom: 3px solid var(--color-flame); position: relative;">
-  <div class="container">
+<!-- Hero Section Localizado con Video de Fondo -->
+<section class="hero-section" style="padding: 4.5rem 0 3.5rem 0; border-bottom: 3px solid var(--color-flame); position: relative; overflow: hidden;">
+  <!-- Video de Fondo Hero Optimizado (Web / Mobile) -->
+  <div class="hero-video-bg-wrap" aria-hidden="true">
+    <video class="hero-video-bg" autoplay muted loop playsinline poster="/assets/videos/hero-poster.webp" preload="metadata">
+      <source src="/assets/videos/hero-bg.mp4" type="video/mp4">
+    </video>
+    <div class="hero-video-overlay"></div>
+  </div>
+
+  <div class="container" style="position: relative; z-index: 3;">
     <div style="max-width: 860px; margin: 0 auto; text-align: center;">
       
       <!-- Badge de Certificación y Ubicación -->
-      <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255, 94, 20, 0.15); border: 1px solid rgba(255, 94, 20, 0.4); padding: 0.45rem 1.15rem; border-radius: 999px; margin-bottom: 1.5rem;">
+      <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255, 94, 20, 0.2); border: 1px solid rgba(255, 94, 20, 0.5); padding: 0.45rem 1.15rem; border-radius: 999px; margin-bottom: 1.5rem; backdrop-filter: blur(4px);">
         <i class="fa-solid fa-certificate" style="color: #ff8c42;"></i>
         <span style="font-size: 0.88rem; font-weight: 800; color: #ff8c42; text-transform: uppercase; letter-spacing: 0.5px;">
           Técnicos Autorizados SEC • <?php echo htmlspecialchars($matchedComuna ? $matchedComuna['nombre'] : 'Cobertura Nacional'); ?>
@@ -803,11 +811,11 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <!-- Título Principal H1 SEO -->
-      <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; line-height: 1.15; margin-bottom: 1.25rem; letter-spacing: -0.5px;">
+      <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; line-height: 1.15; margin-bottom: 1.25rem; letter-spacing: -0.5px; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">
         <?php echo htmlspecialchars($h1Title); ?>
       </h1>
 
-      <p style="font-size: 1.15rem; color: #cbd5e1; line-height: 1.6; margin-bottom: 2rem;">
+      <p style="font-size: 1.15rem; color: #e2e8f0; line-height: 1.6; margin-bottom: 2rem; text-shadow: 0 1px 4px rgba(0,0,0,0.5);">
         <?php echo htmlspecialchars($h1Sub); ?>
       </p>
 
@@ -828,7 +836,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <!-- Métricas y Puntos de Confianza -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; text-align: left; background: rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid rgba(255, 255, 255, 0.1);">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; text-align: left; background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(8px); padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid rgba(255, 255, 255, 0.12); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
         <div style="display: flex; align-items: center; gap: 0.85rem;">
           <i class="fa-solid fa-truck-fast" style="font-size: 1.8rem; color: #ff8c42;"></i>
           <div>
