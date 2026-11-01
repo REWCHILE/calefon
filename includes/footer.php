@@ -8,7 +8,7 @@
         <!-- Columna 1: Identidad y Certificación -->
         <div class="footer-col">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-            <img src="logotipo-central-calefon.webp" alt="Central Calefón" style="width: 50px; height: 50px; border-radius: 50%; background: #fff; padding: 2px;">
+            <img src="/logotipo-central-calefon.webp" alt="Central Calefón" style="width: 50px; height: 50px; border-radius: 50%; background: #fff; padding: 2px;">
             <div>
               <h3 style="font-family: var(--font-heading); font-size: 1.2rem; color: #fff; font-weight: 800; line-height: 1;">CENTRAL CALEFÓN</h3>
               <span style="font-size: 0.75rem; color: #ff8c42; font-weight: 700; text-transform: uppercase;">Servicio Técnico Autorizado SEC</span>
@@ -19,7 +19,7 @@
           </p>
 
           <a href="https://wlhttp.sec.cl/rnii/public/licencia/qr?o=285eb263edf5cb049f3f4cc7fa0d2182" target="_blank" rel="noopener noreferrer" class="footer-sec-stamp" title="Verificar licencia SEC de Domingo Plaza">
-            <img src="enlace-sec-qr.png" alt="QR Verificación SEC Domingo Isaín Plaza" width="50" height="50" style="aspect-ratio: 1 / 1; object-fit: contain; background: #ffffff; padding: 2px; border-radius: 6px;">
+            <img src="/enlace-sec-qr.png" alt="QR Verificación SEC Domingo Isaín Plaza" width="50" height="50" style="aspect-ratio: 1 / 1; object-fit: contain; background: #ffffff; padding: 2px; border-radius: 6px;">
             <div>
               <div style="color: #fff; font-weight: 700; font-size: 0.82rem;">Domingo Isaín Plaza Caamaño <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.68rem; color: #38bdf8;"></i></div>
               <div style="font-size: 0.75rem; color: #94a3b8;">RUT: 12.738.961-6</div>
@@ -70,7 +70,7 @@
             Región Metropolitana (Santiago), La Serena, Coquimbo, Valparaíso, Viña del Mar y cobertura en todo Chile.
           </p>
           <div style="margin-top: 1rem;">
-            <a href="contacto.php" class="btn btn-flame btn-sm" style="width: 100%;">
+            <a href="/contacto" class="btn btn-flame btn-sm" style="width: 100%;">
               <i class="fa-solid fa-calendar-check"></i> Agendar Visita Técnica
             </a>
           </div>
@@ -84,34 +84,34 @@
           Servicio Técnico de Calefón por Comunas en Santiago y Regiones:
         </h5>
         <div style="display: flex; flex-wrap: wrap; gap: 0.45rem 0.85rem; font-size: 0.82rem; line-height: 1.6;">
-          <a href="servicio-tecnico-calefon-penalolen/" style="color: #94a3b8;">Peñalolén</a>
-          <a href="servicio-tecnico-calefon-macul/" style="color: #94a3b8;">Macul</a>
-          <a href="servicio-tecnico-calefon-providencia/" style="color: #94a3b8;">Providencia</a>
-          <a href="servicio-tecnico-calefon-las-condes/" style="color: #94a3b8;">Las Condes</a>
-          <a href="servicio-tecnico-calefon-la-florida/" style="color: #94a3b8;">La Florida</a>
-          <a href="servicio-tecnico-calefon-nunoa/" style="color: #94a3b8;">Ñuñoa</a>
-          <a href="servicio-tecnico-calefon-santiago/" style="color: #94a3b8;">Santiago Centro</a>
-          <a href="servicio-tecnico-calefon-maipu/" style="color: #94a3b8;">Maipú</a>
-          <a href="servicio-tecnico-calefon-san-joaquin/" style="color: #94a3b8;">San Joaquín</a>
-          <a href="servicio-tecnico-calefon-estacion-central/" style="color: #94a3b8;">Estación Central</a>
-          <a href="servicio-tecnico-pedro-aguirre-cerda/" style="color: #94a3b8;">Pedro Aguirre Cerda</a>
-          <a href="servicio-tecnico-calefon-renca/" style="color: #94a3b8;">Renca</a>
-          <a href="servicio-tecnico-calefon-puente-alto/" style="color: #94a3b8;">Puente Alto</a>
-          <a href="servicio-tecnico-calefon-san-miguel/" style="color: #94a3b8;">San Miguel</a>
-          <a href="servicio-tecnico-calefon-la-reina/" style="color: #94a3b8;">La Reina</a>
-          <a href="servicio-tecnico-calefon-vitacura/" style="color: #94a3b8;">Vitacura</a>
-          <a href="servicio-tecnico-calefon-lo-barnechea/" style="color: #94a3b8;">Lo Barnechea</a>
-          <a href="servicio-tecnico-calefon-recoleta/" style="color: #94a3b8;">Recoleta</a>
-          <a href="servicio-tecnico-calefon-quilicura/" style="color: #94a3b8;">Quilicura</a>
-          <a href="servicio-tecnico-calefon-pudahuel/" style="color: #94a3b8;">Pudahuel</a>
-          <a href="servicio-tecnico-calefon-san-bernardo/" style="color: #94a3b8;">San Bernardo</a>
-          <a href="servicio-tecnico-calefon-buin/" style="color: #94a3b8;">Buin</a>
-          <a href="servicio-tecnico-calefon-paine/" style="color: #94a3b8;">Paine</a>
-          <a href="servicio-tecnico-calefon-pirque/" style="color: #94a3b8;">Pirque</a>
-          <a href="servicio-tecnico-calefon-padre-hurtado/" style="color: #94a3b8;">Padre Hurtado</a>
-          <a href="servicio-tecnico-calefon-colina/" style="color: #94a3b8;">Colina</a>
-          <a href="servicio-tecnico-autorizado-calefon/" style="color: #38bdf8; font-weight: 700;">Servicio Autorizado</a>
-          <a href="servicio-tecnico-especialista-en-calefon/" style="color: #ff8c42; font-weight: 700;">Especialista SEC</a>
+          <a href="/servicio-tecnico-calefon-penalolen/" style="color: #94a3b8;">Peñalolén</a>
+          <a href="/servicio-tecnico-calefon-macul/" style="color: #94a3b8;">Macul</a>
+          <a href="/servicio-tecnico-calefon-providencia/" style="color: #94a3b8;">Providencia</a>
+          <a href="/servicio-tecnico-calefon-las-condes/" style="color: #94a3b8;">Las Condes</a>
+          <a href="/servicio-tecnico-calefon-la-florida/" style="color: #94a3b8;">La Florida</a>
+          <a href="/servicio-tecnico-calefon-nunoa/" style="color: #94a3b8;">Ñuñoa</a>
+          <a href="/servicio-tecnico-calefon-santiago/" style="color: #94a3b8;">Santiago Centro</a>
+          <a href="/servicio-tecnico-calefon-maipu/" style="color: #94a3b8;">Maipú</a>
+          <a href="/servicio-tecnico-calefon-san-joaquin/" style="color: #94a3b8;">San Joaquín</a>
+          <a href="/servicio-tecnico-calefon-estacion-central/" style="color: #94a3b8;">Estación Central</a>
+          <a href="/servicio-tecnico-pedro-aguirre-cerda/" style="color: #94a3b8;">Pedro Aguirre Cerda</a>
+          <a href="/servicio-tecnico-calefon-renca/" style="color: #94a3b8;">Renca</a>
+          <a href="/servicio-tecnico-calefon-puente-alto/" style="color: #94a3b8;">Puente Alto</a>
+          <a href="/servicio-tecnico-calefon-san-miguel/" style="color: #94a3b8;">San Miguel</a>
+          <a href="/servicio-tecnico-calefon-la-reina/" style="color: #94a3b8;">La Reina</a>
+          <a href="/servicio-tecnico-calefon-vitacura/" style="color: #94a3b8;">Vitacura</a>
+          <a href="/servicio-tecnico-calefon-lo-barnechea/" style="color: #94a3b8;">Lo Barnechea</a>
+          <a href="/servicio-tecnico-calefon-recoleta/" style="color: #94a3b8;">Recoleta</a>
+          <a href="/servicio-tecnico-calefon-quilicura/" style="color: #94a3b8;">Quilicura</a>
+          <a href="/servicio-tecnico-calefon-pudahuel/" style="color: #94a3b8;">Pudahuel</a>
+          <a href="/servicio-tecnico-calefon-san-bernardo/" style="color: #94a3b8;">San Bernardo</a>
+          <a href="/servicio-tecnico-calefon-buin/" style="color: #94a3b8;">Buin</a>
+          <a href="/servicio-tecnico-calefon-paine/" style="color: #94a3b8;">Paine</a>
+          <a href="/servicio-tecnico-calefon-pirque/" style="color: #94a3b8;">Pirque</a>
+          <a href="/servicio-tecnico-calefon-padre-hurtado/" style="color: #94a3b8;">Padre Hurtado</a>
+          <a href="/servicio-tecnico-calefon-colina/" style="color: #94a3b8;">Colina</a>
+          <a href="/servicio-tecnico-autorizado-calefon/" style="color: #38bdf8; font-weight: 700;">Servicio Autorizado</a>
+          <a href="/servicio-tecnico-especialista-en-calefon/" style="color: #ff8c42; font-weight: 700;">Especialista SEC</a>
         </div>
       </div>
 
@@ -120,10 +120,10 @@
           &copy; <?php echo date('Y'); ?> <strong>Central Calefón</strong>. Todos los derechos reservados. Gasfíter autorizado y certificado SEC en Chile.
         </div>
         <div style="display: flex; gap: 1.25rem;">
-          <a href="llm.txt" target="_blank" style="color: #64748b; font-size: 0.8rem;">llm.txt</a>
-          <a href="full-llm.txt" target="_blank" style="color: #64748b; font-size: 0.8rem;">full-llm.txt</a>
-          <a href="nosotros" style="color: #94a3b8;">Certificado SEC</a>
-          <a href="contacto" style="color: #94a3b8;">Contacto</a>
+          <a href="/llm.txt" target="_blank" style="color: #64748b; font-size: 0.8rem;">llm.txt</a>
+          <a href="/full-llm.txt" target="_blank" style="color: #64748b; font-size: 0.8rem;">full-llm.txt</a>
+          <a href="/nosotros" style="color: #94a3b8;">Certificado SEC</a>
+          <a href="/contacto" style="color: #94a3b8;">Contacto</a>
         </div>
       </div>
     </div>
@@ -148,6 +148,6 @@
   </div>
 
   <!-- Scripts -->
-  <script src="assets/js/main.js?v=<?php echo file_exists(__DIR__ . '/../assets/js/main.js') ? filemtime(__DIR__ . '/../assets/js/main.js') : '1.2'; ?>"></script>
+  <script src="/assets/js/main.js?v=<?php echo file_exists(__DIR__ . '/../assets/js/main.js') ? filemtime(__DIR__ . '/../assets/js/main.js') : '1.2'; ?>"></script>
 </body>
 </html>

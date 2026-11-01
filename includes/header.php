@@ -19,6 +19,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/">
   <title><?php echo htmlspecialchars($pageTitle); ?></title>
   <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
   <meta name="robots" content="index, follow">
@@ -54,8 +55,8 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <!-- Hoja de Estilos Principal -->
-  <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo file_exists(__DIR__ . '/../assets/css/styles.css') ? filemtime(__DIR__ . '/../assets/css/styles.css') : '1.2'; ?>">
-  <link rel="icon" type="image/webp" href="logotipo-central-calefon.webp">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=<?php echo file_exists(__DIR__ . '/../assets/css/styles.css') ? filemtime(__DIR__ . '/../assets/css/styles.css') : '1.2'; ?>">
+  <link rel="icon" type="image/webp" href="/logotipo-central-calefon.webp">
 
   <!-- SCHEMA JSON-LD: LocalBusiness + Plumber + HVACBusiness -->
   <script type="application/ld+json">
@@ -224,7 +225,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
     <div class="container header-container">
       <!-- Logotipo e Identidad -->
       <a href="/" class="brand-logo-wrap" title="Central Calefón Chile - Inicio">
-        <img src="logotipo-central-calefon.webp" alt="Logotipo Central Calefón Gasfíter Certificado SEC" class="brand-logo-img" width="52" height="52">
+        <img src="/logotipo-central-calefon.webp" alt="Logotipo Central Calefón Gasfíter Certificado SEC" class="brand-logo-img" width="52" height="52">
         <div class="brand-title-box">
           <div class="brand-title">CENTRAL <span>CALEFÓN</span></div>
           <div class="brand-subtitle">Gasfíter Autorizado SEC Chile</div>
@@ -238,8 +239,8 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
         <a href="/#servicios" class="nav-link">Servicios</a>
         <a href="/#diagnostico" class="nav-link">Diagnóstico Falla</a>
         <a href="/#tipos" class="nav-link">Tiro Forzado / Tipos</a>
-        <a href="nosotros" class="nav-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">Nosotros</a>
-        <a href="contacto" class="nav-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">Contacto</a>
+        <a href="/nosotros" class="nav-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">Nosotros</a>
+        <a href="/contacto" class="nav-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">Contacto</a>
       </nav>
 
       <!-- Botones de Acción Rápida -->
@@ -267,7 +268,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
     <div class="mobile-nav-drawer" id="mobileNavDrawer" role="dialog" aria-modal="true" aria-label="Menú Móvil">
       <div class="drawer-header">
         <div class="brand-logo-wrap">
-          <img src="logotipo-central-calefon.webp" alt="Central Calefón" width="40" height="40" style="width: 40px; height: 40px; border-radius: 50%;">
+          <img src="/logotipo-central-calefon.webp" alt="Central Calefón" width="40" height="40" style="width: 40px; height: 40px; border-radius: 50%;">
           <div class="brand-title-box">
             <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.1rem; color: var(--color-primary);">CENTRAL CALEFÓN</span>
             <span style="font-size: 0.7rem; font-weight: 700; color: #c41230;">CERTIFICADO SEC</span>
@@ -297,16 +298,16 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
         <a href="/#faq" class="drawer-link">
           <i class="fa-solid fa-circle-question"></i> Preguntas Frecuentes
         </a>
-        <a href="nosotros" class="drawer-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">
+        <a href="/nosotros" class="drawer-link <?php echo ($currentPage === 'nosotros') ? 'active' : ''; ?>">
           <i class="fa-solid fa-user-shield"></i> Nosotros (Certificación SEC)
         </a>
-        <a href="contacto" class="drawer-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">
+        <a href="/contacto" class="drawer-link <?php echo ($currentPage === 'contacto') ? 'active' : ''; ?>">
           <i class="fa-solid fa-envelope"></i> Contacto Directo
         </a>
 
         <!-- Credencial SEC en Menú Móvil -->
         <div class="drawer-sec-badge">
-          <img src="imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño" width="46" height="46">
+          <img src="/imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño" width="46" height="46">
           <div>
             <div style="font-weight: 800; font-size: 0.85rem; color: var(--color-primary);">Domingo Isaín Plaza</div>
             <div style="font-size: 0.75rem; color: #64748b;">RUT: 12.738.961-6</div>

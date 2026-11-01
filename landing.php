@@ -1044,8 +1044,8 @@ require_once __DIR__ . '/includes/header.php';
           </div>
 
           <!-- Video HTML5 Optimizado -->
-          <video class="field-video-player" autoplay loop muted playsinline poster="assets/videos/hero-poster.webp" preload="metadata">
-            <source src="assets/videos/trabajo-terreno.mp4" type="video/mp4">
+          <video class="field-video-player" autoplay loop muted playsinline poster="/assets/videos/hero-poster.webp" preload="metadata">
+            <source src="/assets/videos/trabajo-terreno.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
           </video>
 
@@ -1157,7 +1157,7 @@ require_once __DIR__ . '/includes/header.php';
 
     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; font-size: 0.82rem; max-width: 1000px; margin: 0 auto;">
       <?php foreach ($comunasData as $k => $c): ?>
-        <a href="servicio-tecnico-calefon-<?php echo $k; ?>" style="color: #cbd5e1; background: #1e293b; padding: 5px 12px; border-radius: 999px; text-decoration: none; border: 1px solid #334155; transition: all 0.2s;" onmouseover="this.style.color='#ffffff'; this.style.backgroundColor='#ff5e14'; this.style.borderColor='#ff5e14';" onmouseout="this.style.color='#cbd5e1'; this.style.backgroundColor='#1e293b'; this.style.borderColor='#334155';">
+        <a href="/servicio-tecnico-calefon-<?php echo $k; ?>/" style="color: #cbd5e1; background: #1e293b; padding: 5px 12px; border-radius: 999px; text-decoration: none; border: 1px solid #334155; transition: all 0.2s;" onmouseover="this.style.color='#ffffff'; this.style.backgroundColor='#ff5e14'; this.style.borderColor='#ff5e14';" onmouseout="this.style.color='#cbd5e1'; this.style.backgroundColor='#1e293b'; this.style.borderColor='#334155';">
           <?php echo htmlspecialchars($c['nombre']); ?>
         </a>
       <?php endforeach; ?>

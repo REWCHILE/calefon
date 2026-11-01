@@ -12,8 +12,8 @@ require_once __DIR__ . '/includes/header.php';
 <section class="hero-section">
   <!-- Video de Fondo Hero Optimizado (Web / Mobile) -->
   <div class="hero-video-bg-wrap" aria-hidden="true">
-    <video class="hero-video-bg" autoplay muted loop playsinline poster="assets/videos/hero-poster.webp" preload="metadata">
-      <source src="assets/videos/hero-bg.mp4" type="video/mp4">
+    <video class="hero-video-bg" autoplay muted loop playsinline poster="/assets/videos/hero-poster.webp" preload="metadata">
+      <source src="/assets/videos/hero-bg.mp4" type="video/mp4">
     </video>
     <div class="hero-video-overlay"></div>
   </div>
@@ -82,7 +82,7 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="credential-technician">
           <div class="technician-photo-wrap">
-            <img src="imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño Técnico Gasfíter Certificado SEC" class="technician-photo" width="72" height="72">
+            <img src="/imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño Técnico Gasfíter Certificado SEC" class="technician-photo" width="72" height="72">
             <span class="technician-badge-sec">SEC</span>
           </div>
           <div class="technician-info">
@@ -93,7 +93,7 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <a href="https://wlhttp.sec.cl/rnii/public/licencia/qr?o=285eb263edf5cb049f3f4cc7fa0d2182" target="_blank" rel="noopener noreferrer" class="credential-qr-block" title="Toca para verificar credencial oficial SEC en wlhttp.sec.cl">
-          <img src="enlace-sec-qr.png" alt="Código QR Verificación SEC Domingo Isaín Plaza" class="qr-code-img" width="76" height="76">
+          <img src="/enlace-sec-qr.png" alt="Código QR Verificación SEC Domingo Isaín Plaza" class="qr-code-img" width="76" height="76">
           <div class="qr-text">
             <strong>Toca o escanea para verificar en SEC.cl <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; color: #38bdf8;"></i></strong>
             Cumplimiento riguroso del Decreto Supremo 66 sobre instalaciones de gas domiciliarias y comerciales.
@@ -105,7 +105,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Callout con GIF animado de agua caliente -->
       <div class="hero-quick-callout">
         <div style="display: flex; align-items: center; gap: 0.85rem;">
-          <img src="Calentador-de-agua-calefon-caldera-terma-03.gif" alt="Animación Calentador de Agua y Calefón" width="44" height="44" style="width: 44px; height: 44px; border-radius: 8px; background: #fff; padding: 2px;">
+          <img src="/Calentador-de-agua-calefon-caldera-terma-03.gif" alt="Animación Calentador de Agua y Calefón" width="44" height="44" style="width: 44px; height: 44px; border-radius: 8px; background: #fff; padding: 2px;">
           <div>
             <div style="font-weight: 800; color: #fff; font-size: 0.95rem;">¿Sin agua caliente ahora mismo?</div>
             <div style="font-size: 0.8rem; color: #fdba74;">Móviles técnicos equipados con repuestos en tu zona.</div>
@@ -143,149 +143,149 @@ require_once __DIR__ . '/includes/header.php';
       <div class="brands-marquee-track" id="brandsMarqueeTrack">
         <!-- Set 1 (18 Marcas) -->
         <div class="brand-slide-card" data-brand="junkers">
-          <img src="assets/images/brands/junkers.svg" alt="Servicio Técnico Calefón Junkers Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/junkers.svg" alt="Servicio Técnico Calefón Junkers Chile" width="120" height="40" loading="lazy">
           <span>JUNKERS</span>
         </div>
         <div class="brand-slide-card" data-brand="splendid">
-          <img src="assets/images/brands/splendid.svg" alt="Servicio Técnico Calefón Splendid Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/splendid.svg" alt="Servicio Técnico Calefón Splendid Chile" width="120" height="40" loading="lazy">
           <span>SPLENDID</span>
         </div>
         <div class="brand-slide-card" data-brand="mademsa">
-          <img src="assets/images/brands/mademsa.svg" alt="Reparación Calefón Mademsa Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/mademsa.svg" alt="Reparación Calefón Mademsa Chile" width="120" height="40" loading="lazy">
           <span>MADEMSA</span>
         </div>
         <div class="brand-slide-card" data-brand="neckar">
-          <img src="assets/images/brands/neckar.svg" alt="Técnico Calefón Neckar Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/neckar.svg" alt="Técnico Calefón Neckar Chile" width="120" height="40" loading="lazy">
           <span>NECKAR</span>
         </div>
         <div class="brand-slide-card" data-brand="rheem">
-          <img src="assets/images/brands/rheem.svg" alt="Mantención Calefón Rheem Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/rheem.svg" alt="Mantención Calefón Rheem Chile" width="120" height="40" loading="lazy">
           <span>RHEEM</span>
         </div>
         <div class="brand-slide-card" data-brand="ursus trotter">
-          <img src="assets/images/brands/trotter.svg" alt="Servicio Técnico Ursus Trotter Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/trotter.svg" alt="Servicio Técnico Ursus Trotter Chile" width="120" height="40" loading="lazy">
           <span>URSUS TROTTER</span>
         </div>
         <div class="brand-slide-card" data-brand="bosch">
-          <img src="assets/images/brands/bosch.svg" alt="Servicio Calefón Bosch Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/bosch.svg" alt="Servicio Calefón Bosch Chile" width="120" height="40" loading="lazy">
           <span>BOSCH</span>
         </div>
         <div class="brand-slide-card" data-brand="rinnai">
-          <img src="assets/images/brands/rinnai.svg" alt="Calefón Rinnai Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/rinnai.svg" alt="Calefón Rinnai Chile" width="120" height="40" loading="lazy">
           <span>RINNAI</span>
         </div>
         <div class="brand-slide-card" data-brand="anwo">
-          <img src="assets/images/brands/anwo.svg" alt="Calderas y Calefón Anwo Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/anwo.svg" alt="Calderas y Calefón Anwo Chile" width="120" height="40" loading="lazy">
           <span>ANWO</span>
         </div>
         <div class="brand-slide-card" data-brand="beretta">
-          <img src="assets/images/brands/beretta.svg" alt="Calderas y Calefones Beretta" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/beretta.svg" alt="Calderas y Calefones Beretta" width="120" height="40" loading="lazy">
           <span>BERETTA</span>
         </div>
         <div class="brand-slide-card" data-brand="vaillant">
-          <img src="assets/images/brands/vaillant.svg" alt="Calefones Vaillant Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/vaillant.svg" alt="Calefones Vaillant Chile" width="120" height="40" loading="lazy">
           <span>VAILLANT</span>
         </div>
         <div class="brand-slide-card" data-brand="fensa">
-          <img src="assets/images/brands/fensa.svg" alt="Reparación Calefón Fensa" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/fensa.svg" alt="Reparación Calefón Fensa" width="120" height="40" loading="lazy">
           <span>FENSA</span>
         </div>
         <div class="brand-slide-card" data-brand="sindelen">
-          <img src="assets/images/brands/sindelen.svg" alt="Calefón Sindelen Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/sindelen.svg" alt="Calefón Sindelen Chile" width="120" height="40" loading="lazy">
           <span>SINDELEN</span>
         </div>
         <div class="brand-slide-card" data-brand="albin trotter">
-          <img src="assets/images/brands/albin-trotter.svg" alt="Calefones Albin Trotter" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/albin-trotter.svg" alt="Calefones Albin Trotter" width="120" height="40" loading="lazy">
           <span>ALBIN TROTTER</span>
         </div>
         <div class="brand-slide-card" data-brand="teka">
-          <img src="assets/images/brands/teka.svg" alt="Calefones Teka Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/teka.svg" alt="Calefones Teka Chile" width="120" height="40" loading="lazy">
           <span>TEKA</span>
         </div>
         <div class="brand-slide-card" data-brand="midea">
-          <img src="assets/images/brands/midea.svg" alt="Calefón Midea Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/midea.svg" alt="Calefón Midea Chile" width="120" height="40" loading="lazy">
           <span>MIDEA</span>
         </div>
         <div class="brand-slide-card" data-brand="haier">
-          <img src="assets/images/brands/haier.svg" alt="Calefones Haier" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/haier.svg" alt="Calefones Haier" width="120" height="40" loading="lazy">
           <span>HAIER</span>
         </div>
         <div class="brand-slide-card" data-brand="walter trotter">
-          <img src="assets/images/brands/walter-trotter.svg" alt="Walter Trotter Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/walter-trotter.svg" alt="Walter Trotter Chile" width="120" height="40" loading="lazy">
           <span>WALTER TROTTER</span>
         </div>
 
         <!-- Set 2 (Duplicado para loop continuo infinito sin salto) -->
         <div class="brand-slide-card" data-brand="junkers" aria-hidden="true">
-          <img src="assets/images/brands/junkers.svg" alt="Servicio Técnico Calefón Junkers Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/junkers.svg" alt="Servicio Técnico Calefón Junkers Chile" width="120" height="40" loading="lazy">
           <span>JUNKERS</span>
         </div>
         <div class="brand-slide-card" data-brand="splendid" aria-hidden="true">
-          <img src="assets/images/brands/splendid.svg" alt="Servicio Técnico Calefón Splendid Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/splendid.svg" alt="Servicio Técnico Calefón Splendid Chile" width="120" height="40" loading="lazy">
           <span>SPLENDID</span>
         </div>
         <div class="brand-slide-card" data-brand="mademsa" aria-hidden="true">
-          <img src="assets/images/brands/mademsa.svg" alt="Reparación Calefón Mademsa Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/mademsa.svg" alt="Reparación Calefón Mademsa Chile" width="120" height="40" loading="lazy">
           <span>MADEMSA</span>
         </div>
         <div class="brand-slide-card" data-brand="neckar" aria-hidden="true">
-          <img src="assets/images/brands/neckar.svg" alt="Técnico Calefón Neckar Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/neckar.svg" alt="Técnico Calefón Neckar Chile" width="120" height="40" loading="lazy">
           <span>NECKAR</span>
         </div>
         <div class="brand-slide-card" data-brand="rheem" aria-hidden="true">
-          <img src="assets/images/brands/rheem.svg" alt="Mantención Calefón Rheem Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/rheem.svg" alt="Mantención Calefón Rheem Chile" width="120" height="40" loading="lazy">
           <span>RHEEM</span>
         </div>
         <div class="brand-slide-card" data-brand="ursus trotter" aria-hidden="true">
-          <img src="assets/images/brands/trotter.svg" alt="Servicio Técnico Ursus Trotter Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/trotter.svg" alt="Servicio Técnico Ursus Trotter Chile" width="120" height="40" loading="lazy">
           <span>URSUS TROTTER</span>
         </div>
         <div class="brand-slide-card" data-brand="bosch" aria-hidden="true">
-          <img src="assets/images/brands/bosch.svg" alt="Servicio Calefón Bosch Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/bosch.svg" alt="Servicio Calefón Bosch Chile" width="120" height="40" loading="lazy">
           <span>BOSCH</span>
         </div>
         <div class="brand-slide-card" data-brand="rinnai" aria-hidden="true">
-          <img src="assets/images/brands/rinnai.svg" alt="Calefón Rinnai Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/rinnai.svg" alt="Calefón Rinnai Chile" width="120" height="40" loading="lazy">
           <span>RINNAI</span>
         </div>
         <div class="brand-slide-card" data-brand="anwo" aria-hidden="true">
-          <img src="assets/images/brands/anwo.svg" alt="Calderas y Calefón Anwo Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/anwo.svg" alt="Calderas y Calefón Anwo Chile" width="120" height="40" loading="lazy">
           <span>ANWO</span>
         </div>
         <div class="brand-slide-card" data-brand="beretta" aria-hidden="true">
-          <img src="assets/images/brands/beretta.svg" alt="Calderas y Calefones Beretta" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/beretta.svg" alt="Calderas y Calefones Beretta" width="120" height="40" loading="lazy">
           <span>BERETTA</span>
         </div>
         <div class="brand-slide-card" data-brand="vaillant" aria-hidden="true">
-          <img src="assets/images/brands/vaillant.svg" alt="Calefones Vaillant Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/vaillant.svg" alt="Calefones Vaillant Chile" width="120" height="40" loading="lazy">
           <span>VAILLANT</span>
         </div>
         <div class="brand-slide-card" data-brand="fensa" aria-hidden="true">
-          <img src="assets/images/brands/fensa.svg" alt="Reparación Calefón Fensa" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/fensa.svg" alt="Reparación Calefón Fensa" width="120" height="40" loading="lazy">
           <span>FENSA</span>
         </div>
         <div class="brand-slide-card" data-brand="sindelen" aria-hidden="true">
-          <img src="assets/images/brands/sindelen.svg" alt="Calefón Sindelen Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/sindelen.svg" alt="Calefón Sindelen Chile" width="120" height="40" loading="lazy">
           <span>SINDELEN</span>
         </div>
         <div class="brand-slide-card" data-brand="albin trotter" aria-hidden="true">
-          <img src="assets/images/brands/albin-trotter.svg" alt="Calefones Albin Trotter" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/albin-trotter.svg" alt="Calefones Albin Trotter" width="120" height="40" loading="lazy">
           <span>ALBIN TROTTER</span>
         </div>
         <div class="brand-slide-card" data-brand="teka" aria-hidden="true">
-          <img src="assets/images/brands/teka.svg" alt="Calefones Teka Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/teka.svg" alt="Calefones Teka Chile" width="120" height="40" loading="lazy">
           <span>TEKA</span>
         </div>
         <div class="brand-slide-card" data-brand="midea" aria-hidden="true">
-          <img src="assets/images/brands/midea.svg" alt="Calefón Midea Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/midea.svg" alt="Calefón Midea Chile" width="120" height="40" loading="lazy">
           <span>MIDEA</span>
         </div>
         <div class="brand-slide-card" data-brand="haier" aria-hidden="true">
-          <img src="assets/images/brands/haier.svg" alt="Calefones Haier" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/haier.svg" alt="Calefones Haier" width="120" height="40" loading="lazy">
           <span>HAIER</span>
         </div>
         <div class="brand-slide-card" data-brand="walter trotter" aria-hidden="true">
-          <img src="assets/images/brands/walter-trotter.svg" alt="Walter Trotter Chile" width="120" height="40" loading="lazy">
+          <img src="/assets/images/brands/walter-trotter.svg" alt="Walter Trotter Chile" width="120" height="40" loading="lazy">
           <span>WALTER TROTTER</span>
         </div>
       </div>
@@ -650,8 +650,8 @@ require_once __DIR__ . '/includes/header.php';
           </div>
 
           <!-- Video HTML5 Optimizado -->
-          <video class="field-video-player" autoplay loop muted playsinline poster="assets/videos/hero-poster.webp" preload="metadata">
-            <source src="assets/videos/trabajo-terreno.mp4" type="video/mp4">
+          <video class="field-video-player" autoplay loop muted playsinline poster="/assets/videos/hero-poster.webp" preload="metadata">
+            <source src="/assets/videos/trabajo-terreno.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
           </video>
 
