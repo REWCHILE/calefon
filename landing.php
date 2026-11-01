@@ -546,7 +546,7 @@ require_once __DIR__ . '/includes/header.php';
           <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem 0; font-size: 0.88rem; color: #475569; display: flex; flex-direction: column; gap: 0.5rem;">
             <li><i class="fa-solid fa-circle-check" style="color: #16a34a; margin-right: 6px;"></i> Conexión de cañería con llave de paso reglamentaria</li>
             <li><i class="fa-solid fa-circle-check" style="color: #16a34a; margin-right: 6px;"></i> Ducto de evacuación de monóxido y sombrerete</li>
-            <li><i class="fa-solid fa-circle-check" style="color: #16a34a; margin-right: 6px;"></i> Prueba de hermeticidad y sello sin fugas</li>
+            <li><i class="fa-solid fa-circle-check" style="color: #16a34a; margin-right: 6px;"></i> Prueba de hermeticidad certificada libre de fugas</li>
           </ul>
         </div>
         <a href="<?php echo $waUrl; ?>" target="_blank" class="btn btn-whatsapp" style="width: 100%;">

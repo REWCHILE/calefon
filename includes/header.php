@@ -215,9 +215,6 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
         <a href="tel:+56932237072" class="top-bar-link">
           <i class="fa-solid fa-phone-volume"></i> 9 3223 7072
         </a>
-        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" class="top-bar-link top-bar-wa" style="color: #4ade80;">
-          <i class="fa-brands fa-whatsapp"></i> WhatsApp Directo
-        </a>
       </div>
     </div>
   </aside>

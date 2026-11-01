@@ -524,7 +524,7 @@ require_once __DIR__ . '/includes/header.php';
         <ul class="service-feature-list">
           <li><i class="fa-solid fa-check"></i> Escaneo digital de cañerías, flexibles y llaves de paso</li>
           <li><i class="fa-solid fa-check"></i> Soldadura de cañerías de cobre con aleación de plata</li>
-          <li><i class="fa-solid fa-check"></i> Regularización de sellos y ventilaciones reglamentarias</li>
+          <li><i class="fa-solid fa-check"></i> Adecuación de ventilaciones y cañerías bajo norma SEC</li>
           <li><i class="fa-solid fa-check"></i> Atención prioritaria en el día para problemas de gas</li>
         </ul>
         <a href="tel:+56932237072" class="btn btn-phone">Llamar a Asistencia Técnica</a>
