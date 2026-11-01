@@ -488,4 +488,69 @@ document.addEventListener('DOMContentLoaded', () => {
       firstAnswer.style.maxHeight = firstAnswer.scrollHeight + 30 + 'px';
     }
   }
+
+  // =========================================================================
+  // 7. CONTROL DE VIDEO EN TERRENO (MUTE / UNMUTE / AUTOPLAY)
+  // "que se pueda escuchar el video, autoloop, autoplay, y que parta con un icono de mute"
+  // =========================================================================
+  const fieldVideoCards = document.querySelectorAll('.field-video-card');
+
+  fieldVideoCards.forEach(card => {
+    const video = card.querySelector('.field-video-player');
+    const audioBtn = card.querySelector('.video-audio-toggle-btn');
+    if (!video || !audioBtn) return;
+
+    const audioIcon = audioBtn.querySelector('i');
+    const audioLabel = audioBtn.querySelector('.audio-btn-label');
+
+    // Garantizar inicio silenciado para que el navegador ejecute autoplay
+    video.muted = true;
+    video.playsInline = true;
+
+    // Intentar reproducir si el navegador lo requiere
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {
+        // Autoplay con silenciado automático si hubo restricción
+        video.muted = true;
+        video.play();
+      });
+    }
+
+    // Toggle de audio
+    audioBtn.addEventListener('click', (e) => {
+      e.stopPropagation(); // Evitar que pause el video
+
+      if (video.muted) {
+        video.muted = false;
+        video.volume = 1.0;
+        audioBtn.classList.add('unmuted');
+        if (audioIcon) {
+          audioIcon.className = 'fa-solid fa-volume-high';
+        }
+        if (audioLabel) {
+          audioLabel.textContent = 'Audio activo · Silenciar';
+        }
+      } else {
+        video.muted = true;
+        audioBtn.classList.remove('unmuted');
+        if (audioIcon) {
+          audioIcon.className = 'fa-solid fa-volume-xmark';
+        }
+        if (audioLabel) {
+          audioLabel.textContent = 'Toca para escuchar';
+        }
+      }
+    });
+
+    // Clic en la tarjeta de video para pausar o reanudar
+    card.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    });
+  });
 });
+

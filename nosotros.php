@@ -124,4 +124,106 @@ require_once __DIR__ . '/includes/header.php';
   </div>
 </section>
 
+<!-- ==========================================================================
+     SECCIÓN TRABAJO REAL EN TERRENO (2 COLUMNAS: SERVICIOS + VIDEO INTERACTIVO)
+     "hazme una sección de dos columnas: a la izquierda el texto como nuestros servicios y al lado el video"
+     ========================================================================== -->
+<section class="field-service-section" id="trabajo-terreno">
+  <div class="container">
+    <div class="field-service-grid">
+      <!-- Columna Izquierda: Nuestros Servicios / Explicación Técnica -->
+      <div class="field-service-content">
+        <span class="section-tag" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255, 107, 0, 0.15); color: #ff8c42; border-color: rgba(255, 107, 0, 0.3);">
+          <i class="fa-solid fa-screwdriver-wrench"></i> Procedimiento Técnico en Terreno
+        </span>
+        <h2 class="section-title" style="text-align: left; margin-bottom: 1.25rem; color: #ffffff;">
+          Técnicos SEC en Acción: <span class="highlight-flame">Diagnóstico y Reparación</span> Directa
+        </h2>
+        <p class="field-service-desc">
+          Así opera nuestro equipo profesional en cada visita domiciliaria: inspección exhaustiva de circuitos de gas, flexibles de agua, llaves de paso, quemadores y sistemas de tiro bajo estricta normativa <strong>Decreto Supremo 66</strong>.
+        </p>
+
+        <!-- Lista de estándares de servicio -->
+        <div class="field-service-list">
+          <div class="field-service-item">
+            <div class="field-item-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <div>
+              <h4>Diagnóstico y Detección de Fugas</h4>
+              <p>Revisión con instrumental calibrado de estanqueidad, presión de gas dinámica y estado de las redes.</p>
+            </div>
+          </div>
+
+          <div class="field-service-item">
+            <div class="field-item-icon"><i class="fa-solid fa-gears"></i></div>
+            <div>
+              <h4>Repuestos Legítimos In-Situ</h4>
+              <p>Cambio inmediato de diafragmas de silicona, serpentines, termocuplas y electroválvulas en el lugar.</p>
+            </div>
+          </div>
+
+          <div class="field-service-item">
+            <div class="field-item-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div>
+              <h4>Certificación SEC y Seguridad</h4>
+              <p>Atención directa por gasfíter autorizado con registro visible y comprobable en el portal oficial SEC.cl.</p>
+            </div>
+          </div>
+
+          <div class="field-service-item">
+            <div class="field-item-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+            <div>
+              <h4>Garantía Escrita y Boleta/Factura</h4>
+              <p>Respaldo formal de todos los trabajos realizados para tu total tranquilidad y la de tu familia.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botones de Acción Directa -->
+        <div class="field-cta-group">
+          <a href="https://wa.me/56932237072?text=Hola%20Central%20Calef%C3%B3n,%20vi%20el%20video%20de%20su%20servicio%20y%20necesito%20un%20t%C3%A9cnico%20a%20domicilio" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+            <i class="fa-brands fa-whatsapp fa-xl"></i>
+            <span>Pedir Técnico a Domicilio</span>
+          </a>
+          <a href="tel:+56932237072" class="btn btn-phone btn-lg">
+            <i class="fa-solid fa-phone"></i>
+            <span>Llamar 9 3223 7072</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Columna Derecha: Video Interactivo con Autoplay, Loop y Control de Sonido -->
+      <div class="field-video-wrapper">
+        <div class="field-video-card" title="Toca para pausar o reanudar el video">
+          <!-- Tag flotante superior -->
+          <div class="field-video-badge">
+            <span class="live-indicator"></span> Registro Real en Terreno
+          </div>
+
+          <!-- Video HTML5 Optimizado -->
+          <video class="field-video-player" autoplay loop muted playsinline poster="assets/videos/hero-poster.webp" preload="metadata">
+            <source src="assets/videos/trabajo-terreno.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+          </video>
+
+          <!-- Control Flotante de Audio / Mute -->
+          <div class="field-video-controls">
+            <button type="button" class="video-audio-toggle-btn" aria-label="Activar o silenciar audio del video">
+              <i class="fa-solid fa-volume-xmark"></i>
+              <span class="audio-btn-label">Toca para escuchar</span>
+            </button>
+            <span class="video-sub-hint"><i class="fa-solid fa-rotate"></i> Loop continuo</span>
+          </div>
+        </div>
+
+        <!-- Callout inferior de confianza -->
+        <div class="field-video-footer-hint">
+          <i class="fa-solid fa-circle-check" style="color: #10b981;"></i>
+          <span>Móviles equipados con herramientas e insumos para solucionar tu avería en una sola visita.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+
