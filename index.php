@@ -84,13 +84,14 @@ require_once __DIR__ . '/includes/header.php';
           </div>
         </div>
 
-        <div class="credential-qr-block">
-          <img src="enlace-sec-qr.png" alt="Código QR Verificación SEC" class="qr-code-img" width="64" height="64">
+        <a href="https://wlhttp.sec.cl/rnii/public/licencia/qr?o=285eb263edf5cb049f3f4cc7fa0d2182" target="_blank" rel="noopener noreferrer" class="credential-qr-block" title="Toca para verificar credencial oficial SEC en wlhttp.sec.cl">
+          <img src="enlace-sec-qr.png" alt="Código QR Verificación SEC Domingo Isaín Plaza" class="qr-code-img" width="76" height="76">
           <div class="qr-text">
-            <strong>Escanea para verificar en SEC.cl</strong>
+            <strong>Toca o escanea para verificar en SEC.cl <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; color: #38bdf8;"></i></strong>
             Cumplimiento riguroso del Decreto Supremo 66 sobre instalaciones de gas domiciliarias y comerciales.
+            <span class="qr-link-hint">Validar licencia oficial de Domingo Plaza &nearr;</span>
           </div>
-        </div>
+        </a>
       </div>
 
       <!-- Callout con GIF animado de agua caliente -->
@@ -102,8 +103,8 @@ require_once __DIR__ . '/includes/header.php';
             <div style="font-size: 0.8rem; color: #fdba74;">Móviles técnicos equipados con repuestos en tu zona.</div>
           </div>
         </div>
-        <a href="#cotizar" class="btn btn-flame btn-sm" style="flex-shrink: 0;">
-          Cotizar
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20me%20qued%C3%A9%20sin%20agua%20caliente,%20solicito%20asistencia%20t%C3%A9cnica%20urgente" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm" style="flex-shrink: 0; font-weight: 700;">
+          <i class="fa-brands fa-whatsapp"></i> Cotizar
         </a>
       </div>
     </div>
@@ -479,7 +480,7 @@ require_once __DIR__ . '/includes/header.php';
           <li><i class="fa-solid fa-check"></i> Reparación de módulos electrónicos y solenoides</li>
           <li><i class="fa-solid fa-check"></i> Pruebas de encendido seguro y sellado de gases</li>
         </ul>
-        <a href="#cotizar" class="btn btn-flame">Solicitar Reparación</a>
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20cotizaci%C3%B3n%20para%20Reparaci%C3%B3n%20de%20mi%20Calef%C3%B3n" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Solicitar Reparación</a>
       </div>
 
       <!-- Servicio 2: Mantención -->
@@ -495,7 +496,7 @@ require_once __DIR__ . '/includes/header.php';
           <li><i class="fa-solid fa-check"></i> Calibración del caudal de agua y presión de gas</li>
           <li><i class="fa-solid fa-check"></i> Test de evacuación de monóxido y combustión limpia</li>
         </ul>
-        <a href="#cotizar" class="btn btn-flame">Agendar Mantención</a>
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20deseo%20agendar%20la%20Mantenci%C3%B3n%20Preventiva%20de%20mi%20Calef%C3%B3n" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Agendar Mantención</a>
       </div>
 
       <!-- Servicio 3: Instalación SEC -->
@@ -511,7 +512,7 @@ require_once __DIR__ . '/includes/header.php';
           <li><i class="fa-solid fa-check"></i> Prueba de hermeticidad certificada libre de fugas</li>
           <li><i class="fa-solid fa-check"></i> Emisión de informe técnico para garantías de fábrica</li>
         </ul>
-        <a href="#cotizar" class="btn btn-flame">Cotizar Instalación</a>
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20cotizaci%C3%B3n%20para%20Instalaci%C3%B3n%20Certificada%20SEC%20de%20Calef%C3%B3n" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Cotizar Instalación</a>
       </div>
 
       <!-- Servicio 4: Fugas y Cañerías -->
@@ -527,7 +528,7 @@ require_once __DIR__ . '/includes/header.php';
           <li><i class="fa-solid fa-check"></i> Adecuación de ventilaciones y cañerías bajo norma SEC</li>
           <li><i class="fa-solid fa-check"></i> Atención prioritaria en el día para problemas de gas</li>
         </ul>
-        <a href="tel:+56932237072" class="btn btn-phone">Llamar a Asistencia Técnica</a>
+        <a href="tel:+56932237072" class="btn btn-phone"><i class="fa-solid fa-phone-volume"></i> Llamar al 9 3223 7072</a>
       </div>
 
       <!-- Servicio 5: Calderas y Calefacción -->
@@ -543,7 +544,7 @@ require_once __DIR__ . '/includes/header.php';
           <li><i class="fa-solid fa-check"></i> Ajuste de termostatos programables de ambiente</li>
           <li><i class="fa-solid fa-check"></i> Soporte marcas Anwo, Beretta, Junkers, Baxi, Vaillant</li>
         </ul>
-        <a href="#cotizar" class="btn btn-flame">Soporte Calderas</a>
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20asistencia%20t%C3%A9cnica%20para%20Caldera" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Soporte Calderas</a>
       </div>
 
       <!-- Servicio 6: Termos Eléctricos -->
@@ -559,7 +560,7 @@ require_once __DIR__ . '/includes/header.php';
           <li><i class="fa-solid fa-check"></i> Instalación de válvulas de alivio y sobrepresión</li>
           <li><i class="fa-solid fa-check"></i> Revisión del circuito eléctrico y puesta a tierra</li>
         </ul>
-        <a href="#cotizar" class="btn btn-flame">Cotizar Termo</a>
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20cotizaci%C3%B3n%20para%20Termo%20El%C3%A9ctrico" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Cotizar Termo</a>
       </div>
     </div>
   </div>

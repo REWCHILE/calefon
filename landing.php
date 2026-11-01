@@ -459,14 +459,14 @@ require_once __DIR__ . '/includes/header.php';
         <p style="color: #64748b; font-size: 0.88rem; line-height: 1.5; margin-bottom: 1.25rem;">
           Profesional debidamente acreditado ante la Superintendencia de Electricidad y Combustibles para ejecutar mantención, calibración y montaje en cumplimiento con el Decreto Supremo 66.
         </p>
-        <div style="display: flex; justify-content: center; align-items: center; gap: 0.75rem;">
-          <img src="enlace-sec-qr.png" alt="QR Verificación SEC" style="width: 60px; height: 60px; border: 1px solid #e2e8f0; border-radius: 6px;">
+        <a href="https://wlhttp.sec.cl/rnii/public/licencia/qr?o=285eb263edf5cb049f3f4cc7fa0d2182" target="_blank" rel="noopener noreferrer" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.85rem; text-decoration: none; padding: 0.65rem 1rem; background: #f0fdf4; border: 1.5px solid #86efac; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); transition: transform 0.2s;" title="Toca o escanea para validar licencia oficial de Domingo Plaza en la SEC">
+          <img src="enlace-sec-qr.png" alt="QR Verificación SEC Domingo Isaín Plaza" width="68" height="68" style="width: 68px; height: 68px; aspect-ratio: 1 / 1; object-fit: contain; background: #ffffff; padding: 3px; border-radius: 8px; flex-shrink: 0; border: 1px solid #bbf7d0;">
           <div style="text-align: left;">
-            <div style="font-size: 0.75rem; color: #94a3b8;">Verificación Oficial:</div>
-            <div style="font-size: 0.82rem; font-weight: 700; color: #0284c7;">Acreditado SEC Chile</div>
-            <div style="font-size: 0.72rem; color: #64748b;">Garantía técnica legal</div>
+            <div style="font-size: 0.72rem; color: #166534; font-weight: 700; text-transform: uppercase;">Verificación Oficial:</div>
+            <div style="font-size: 0.88rem; font-weight: 800; color: #15803d;">Acreditado SEC Chile <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i></div>
+            <div style="font-size: 0.75rem; color: #0369a1; text-decoration: underline; font-weight: 600;">Toca para validar en SEC &nearr;</div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>

@@ -18,14 +18,14 @@
             Especialistas en diagnóstico, reparación, mantención e instalación de calefones multimarca y calderas a domicilio con cobertura nacional en Chile.
           </p>
 
-          <div class="footer-sec-stamp">
-            <img src="enlace-sec-qr.png" alt="QR Verificación SEC">
+          <a href="https://wlhttp.sec.cl/rnii/public/licencia/qr?o=285eb263edf5cb049f3f4cc7fa0d2182" target="_blank" rel="noopener noreferrer" class="footer-sec-stamp" title="Verificar licencia SEC de Domingo Plaza">
+            <img src="enlace-sec-qr.png" alt="QR Verificación SEC Domingo Isaín Plaza" width="50" height="50" style="aspect-ratio: 1 / 1; object-fit: contain; background: #ffffff; padding: 2px; border-radius: 6px;">
             <div>
-              <div style="color: #fff; font-weight: 700; font-size: 0.82rem;">Domingo Isaín Plaza Caamaño</div>
+              <div style="color: #fff; font-weight: 700; font-size: 0.82rem;">Domingo Isaín Plaza Caamaño <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.68rem; color: #38bdf8;"></i></div>
               <div style="font-size: 0.75rem; color: #94a3b8;">RUT: 12.738.961-6</div>
-              <div style="font-size: 0.72rem; color: #38bdf8; font-weight: 700;">Instalador Clase 3 SEC Gas</div>
+              <div style="font-size: 0.72rem; color: #38bdf8; font-weight: 700;">Instalador Clase 3 SEC &nearr;</div>
             </div>
-          </div>
+          </a>
         </div>
 
         <!-- Columna 2: Servicios Principales -->

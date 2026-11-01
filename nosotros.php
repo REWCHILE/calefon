@@ -28,13 +28,13 @@ require_once __DIR__ . '/includes/header.php';
         <div style="background: #f8fafc; border: 2px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-lg); text-align: center;">
           <img src="imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Credencial Oficial Domingo Isaín Plaza Caamaño SEC Gasfíter" style="border-radius: var(--radius-md); box-shadow: var(--shadow-sm); width: 100%; margin-bottom: 1.25rem;">
           
-          <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; background: #ffffff; padding: 1rem; border-radius: var(--radius-md); border: 1px dashed var(--color-border);">
-            <img src="enlace-sec-qr.png" alt="QR Verificación SEC" style="width: 70px; height: 70px;">
+          <a href="https://wlhttp.sec.cl/rnii/public/licencia/qr?o=285eb263edf5cb049f3f4cc7fa0d2182" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 1rem; background: #ffffff; padding: 1rem; border-radius: var(--radius-md); border: 1.5px dashed #0284c7; transition: transform 0.2s;" title="Toca o escanea para validar en portal oficial SEC">
+            <img src="enlace-sec-qr.png" alt="QR Verificación SEC Domingo Isaín Plaza" width="70" height="70" style="width: 70px; height: 70px; aspect-ratio: 1 / 1; object-fit: contain; flex-shrink: 0; background: #ffffff; padding: 2px;">
             <div style="text-align: left;">
-              <div style="font-weight: 800; color: var(--color-primary); font-size: 0.95rem;">Código QR Oficial SEC</div>
-              <div style="font-size: 0.8rem; color: #64748b;">Escanea para comprobar estado activo en el registro nacional de instaladores de gas.</div>
+              <div style="font-weight: 800; color: var(--color-primary); font-size: 0.95rem;">Código QR Oficial SEC <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; color: var(--color-flame);"></i></div>
+              <div style="font-size: 0.8rem; color: #64748b;">Toca o escanea para comprobar licencia activa en el registro nacional SEC.</div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 
