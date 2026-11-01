@@ -74,7 +74,7 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="credential-technician">
           <div class="technician-photo-wrap">
-            <img src="imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño Técnico Gasfíter Certificado SEC" class="technician-photo">
+            <img src="imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño Técnico Gasfíter Certificado SEC" class="technician-photo" width="72" height="72">
             <span class="technician-badge-sec">SEC</span>
           </div>
           <div class="technician-info">
@@ -85,7 +85,7 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <div class="credential-qr-block">
-          <img src="enlace-sec-qr.png" alt="Código QR Verificación SEC" class="qr-code-img">
+          <img src="enlace-sec-qr.png" alt="Código QR Verificación SEC" class="qr-code-img" width="64" height="64">
           <div class="qr-text">
             <strong>Escanea para verificar en SEC.cl</strong>
             Cumplimiento riguroso del Decreto Supremo 66 sobre instalaciones de gas domiciliarias y comerciales.
@@ -96,7 +96,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Callout con GIF animado de agua caliente -->
       <div class="hero-quick-callout">
         <div style="display: flex; align-items: center; gap: 0.85rem;">
-          <img src="Calentador-de-agua-calefon-caldera-terma-03.gif" alt="Animación Calentador de Agua y Calefón" style="width: 44px; height: 44px; border-radius: 8px; background: #fff; padding: 2px;">
+          <img src="Calentador-de-agua-calefon-caldera-terma-03.gif" alt="Animación Calentador de Agua y Calefón" width="44" height="44" style="width: 44px; height: 44px; border-radius: 8px; background: #fff; padding: 2px;">
           <div>
             <div style="font-weight: 800; color: #fff; font-size: 0.95rem;">¿Sin agua caliente ahora mismo?</div>
             <div style="font-size: 0.8rem; color: #fdba74;">Móviles técnicos equipados con repuestos en tu zona.</div>
@@ -129,133 +129,154 @@ require_once __DIR__ . '/includes/header.php';
       </div>
     </div>
 
-    <!-- Slider de Logos de Marcas -->
-    <div class="custom-slider-container">
-      <div class="slider-controls-bar">
-        <div class="slider-status-wrap">
-          <span class="slider-status-pill playing" id="brandsStatus">
-            <span class="pulse-dot"></span> <span class="status-label">Autoplay activo</span>
-          </span>
-          <span class="slider-swipe-hint">
-            <i class="fa-solid fa-hand-pointer"></i> Pasa el mouse para pausar
-          </span>
-        </div>
-        <div class="slider-arrows">
-          <button class="slider-arrow-btn" id="brandsPrevBtn" aria-label="Marca Anterior">
-            <i class="fa-solid fa-chevron-left"></i>
-          </button>
-          <button class="slider-arrow-btn" id="brandsNextBtn" aria-label="Siguiente Marca">
-            <i class="fa-solid fa-chevron-right"></i>
-          </button>
-        </div>
-      </div>
-
-      <div class="slider-scroll-track" id="brandsSliderTrack">
-        <!-- 1. Junkers -->
+    <!-- Marquee Continuo de Logos de Marcas (Infinito 60fps con pausa al posar el mouse) -->
+    <div class="brands-marquee-container" id="brandsMarqueeContainer">
+      <div class="brands-marquee-track" id="brandsMarqueeTrack">
+        <!-- Set 1 (18 Marcas) -->
         <div class="brand-slide-card" data-brand="junkers">
-          <img src="assets/images/brands/junkers.svg" alt="Servicio Técnico Calefón Junkers Chile" loading="lazy">
+          <img src="assets/images/brands/junkers.svg" alt="Servicio Técnico Calefón Junkers Chile" width="120" height="40" loading="lazy">
           <span>JUNKERS</span>
         </div>
-
-        <!-- 2. Splendid -->
         <div class="brand-slide-card" data-brand="splendid">
-          <img src="assets/images/brands/splendid.svg" alt="Servicio Técnico Calefón Splendid Chile" loading="lazy">
+          <img src="assets/images/brands/splendid.svg" alt="Servicio Técnico Calefón Splendid Chile" width="120" height="40" loading="lazy">
           <span>SPLENDID</span>
         </div>
-
-        <!-- 3. Mademsa -->
         <div class="brand-slide-card" data-brand="mademsa">
-          <img src="assets/images/brands/mademsa.svg" alt="Reparación Calefón Mademsa Chile" loading="lazy">
+          <img src="assets/images/brands/mademsa.svg" alt="Reparación Calefón Mademsa Chile" width="120" height="40" loading="lazy">
           <span>MADEMSA</span>
         </div>
-
-        <!-- 4. Neckar -->
         <div class="brand-slide-card" data-brand="neckar">
-          <img src="assets/images/brands/neckar.svg" alt="Técnico Calefón Neckar Chile" loading="lazy">
+          <img src="assets/images/brands/neckar.svg" alt="Técnico Calefón Neckar Chile" width="120" height="40" loading="lazy">
           <span>NECKAR</span>
         </div>
-
-        <!-- 5. Rheem -->
         <div class="brand-slide-card" data-brand="rheem">
-          <img src="assets/images/brands/rheem.svg" alt="Mantención Calefón Rheem Chile" loading="lazy">
+          <img src="assets/images/brands/rheem.svg" alt="Mantención Calefón Rheem Chile" width="120" height="40" loading="lazy">
           <span>RHEEM</span>
         </div>
-
-        <!-- 6. Ursus Trotter -->
         <div class="brand-slide-card" data-brand="ursus trotter">
-          <img src="assets/images/brands/trotter.svg" alt="Servicio Técnico Ursus Trotter Chile" loading="lazy">
+          <img src="assets/images/brands/trotter.svg" alt="Servicio Técnico Ursus Trotter Chile" width="120" height="40" loading="lazy">
           <span>URSUS TROTTER</span>
         </div>
-
-        <!-- 7. Bosch -->
         <div class="brand-slide-card" data-brand="bosch">
-          <img src="assets/images/brands/bosch.svg" alt="Servicio Calefón Bosch Chile" loading="lazy">
+          <img src="assets/images/brands/bosch.svg" alt="Servicio Calefón Bosch Chile" width="120" height="40" loading="lazy">
           <span>BOSCH</span>
         </div>
-
-        <!-- 8. Rinnai -->
         <div class="brand-slide-card" data-brand="rinnai">
-          <img src="assets/images/brands/rinnai.svg" alt="Calefón Rinnai Chile" loading="lazy">
+          <img src="assets/images/brands/rinnai.svg" alt="Calefón Rinnai Chile" width="120" height="40" loading="lazy">
           <span>RINNAI</span>
         </div>
-
-        <!-- 9. Anwo -->
         <div class="brand-slide-card" data-brand="anwo">
-          <img src="assets/images/brands/anwo.svg" alt="Calderas y Calefón Anwo Chile" loading="lazy">
+          <img src="assets/images/brands/anwo.svg" alt="Calderas y Calefón Anwo Chile" width="120" height="40" loading="lazy">
           <span>ANWO</span>
         </div>
-
-        <!-- 10. Beretta -->
         <div class="brand-slide-card" data-brand="beretta">
-          <img src="assets/images/brands/beretta.svg" alt="Calderas y Calefones Beretta" loading="lazy">
+          <img src="assets/images/brands/beretta.svg" alt="Calderas y Calefones Beretta" width="120" height="40" loading="lazy">
           <span>BERETTA</span>
         </div>
-
-        <!-- 11. Vaillant -->
         <div class="brand-slide-card" data-brand="vaillant">
-          <img src="assets/images/brands/vaillant.svg" alt="Calefones Vaillant Chile" loading="lazy">
+          <img src="assets/images/brands/vaillant.svg" alt="Calefones Vaillant Chile" width="120" height="40" loading="lazy">
           <span>VAILLANT</span>
         </div>
-
-        <!-- 12. Fensa -->
         <div class="brand-slide-card" data-brand="fensa">
-          <img src="assets/images/brands/fensa.svg" alt="Reparación Calefón Fensa" loading="lazy">
+          <img src="assets/images/brands/fensa.svg" alt="Reparación Calefón Fensa" width="120" height="40" loading="lazy">
           <span>FENSA</span>
         </div>
-
-        <!-- 13. Sindelen -->
         <div class="brand-slide-card" data-brand="sindelen">
-          <img src="assets/images/brands/sindelen.svg" alt="Calefón Sindelen Chile" loading="lazy">
+          <img src="assets/images/brands/sindelen.svg" alt="Calefón Sindelen Chile" width="120" height="40" loading="lazy">
           <span>SINDELEN</span>
         </div>
-
-        <!-- 14. Albin Trotter -->
         <div class="brand-slide-card" data-brand="albin trotter">
-          <img src="assets/images/brands/albin-trotter.svg" alt="Calefones Albin Trotter" loading="lazy">
+          <img src="assets/images/brands/albin-trotter.svg" alt="Calefones Albin Trotter" width="120" height="40" loading="lazy">
           <span>ALBIN TROTTER</span>
         </div>
-
-        <!-- 15. Teka -->
         <div class="brand-slide-card" data-brand="teka">
-          <img src="assets/images/brands/teka.svg" alt="Calefones Teka Chile" loading="lazy">
+          <img src="assets/images/brands/teka.svg" alt="Calefones Teka Chile" width="120" height="40" loading="lazy">
           <span>TEKA</span>
         </div>
-
-        <!-- 16. Midea -->
         <div class="brand-slide-card" data-brand="midea">
-          <img src="assets/images/brands/midea.svg" alt="Calefón Midea Chile" loading="lazy">
+          <img src="assets/images/brands/midea.svg" alt="Calefón Midea Chile" width="120" height="40" loading="lazy">
           <span>MIDEA</span>
         </div>
-
-        <!-- 17. Haier -->
         <div class="brand-slide-card" data-brand="haier">
-          <img src="assets/images/brands/haier.svg" alt="Calefones Haier" loading="lazy">
+          <img src="assets/images/brands/haier.svg" alt="Calefones Haier" width="120" height="40" loading="lazy">
           <span>HAIER</span>
         </div>
-
-        <!-- 18. Walter Trotter -->
         <div class="brand-slide-card" data-brand="walter trotter">
-          <img src="assets/images/brands/walter-trotter.svg" alt="Walter Trotter Chile" loading="lazy">
+          <img src="assets/images/brands/walter-trotter.svg" alt="Walter Trotter Chile" width="120" height="40" loading="lazy">
+          <span>WALTER TROTTER</span>
+        </div>
+
+        <!-- Set 2 (Duplicado para loop continuo infinito sin salto) -->
+        <div class="brand-slide-card" data-brand="junkers" aria-hidden="true">
+          <img src="assets/images/brands/junkers.svg" alt="Servicio Técnico Calefón Junkers Chile" width="120" height="40" loading="lazy">
+          <span>JUNKERS</span>
+        </div>
+        <div class="brand-slide-card" data-brand="splendid" aria-hidden="true">
+          <img src="assets/images/brands/splendid.svg" alt="Servicio Técnico Calefón Splendid Chile" width="120" height="40" loading="lazy">
+          <span>SPLENDID</span>
+        </div>
+        <div class="brand-slide-card" data-brand="mademsa" aria-hidden="true">
+          <img src="assets/images/brands/mademsa.svg" alt="Reparación Calefón Mademsa Chile" width="120" height="40" loading="lazy">
+          <span>MADEMSA</span>
+        </div>
+        <div class="brand-slide-card" data-brand="neckar" aria-hidden="true">
+          <img src="assets/images/brands/neckar.svg" alt="Técnico Calefón Neckar Chile" width="120" height="40" loading="lazy">
+          <span>NECKAR</span>
+        </div>
+        <div class="brand-slide-card" data-brand="rheem" aria-hidden="true">
+          <img src="assets/images/brands/rheem.svg" alt="Mantención Calefón Rheem Chile" width="120" height="40" loading="lazy">
+          <span>RHEEM</span>
+        </div>
+        <div class="brand-slide-card" data-brand="ursus trotter" aria-hidden="true">
+          <img src="assets/images/brands/trotter.svg" alt="Servicio Técnico Ursus Trotter Chile" width="120" height="40" loading="lazy">
+          <span>URSUS TROTTER</span>
+        </div>
+        <div class="brand-slide-card" data-brand="bosch" aria-hidden="true">
+          <img src="assets/images/brands/bosch.svg" alt="Servicio Calefón Bosch Chile" width="120" height="40" loading="lazy">
+          <span>BOSCH</span>
+        </div>
+        <div class="brand-slide-card" data-brand="rinnai" aria-hidden="true">
+          <img src="assets/images/brands/rinnai.svg" alt="Calefón Rinnai Chile" width="120" height="40" loading="lazy">
+          <span>RINNAI</span>
+        </div>
+        <div class="brand-slide-card" data-brand="anwo" aria-hidden="true">
+          <img src="assets/images/brands/anwo.svg" alt="Calderas y Calefón Anwo Chile" width="120" height="40" loading="lazy">
+          <span>ANWO</span>
+        </div>
+        <div class="brand-slide-card" data-brand="beretta" aria-hidden="true">
+          <img src="assets/images/brands/beretta.svg" alt="Calderas y Calefones Beretta" width="120" height="40" loading="lazy">
+          <span>BERETTA</span>
+        </div>
+        <div class="brand-slide-card" data-brand="vaillant" aria-hidden="true">
+          <img src="assets/images/brands/vaillant.svg" alt="Calefones Vaillant Chile" width="120" height="40" loading="lazy">
+          <span>VAILLANT</span>
+        </div>
+        <div class="brand-slide-card" data-brand="fensa" aria-hidden="true">
+          <img src="assets/images/brands/fensa.svg" alt="Reparación Calefón Fensa" width="120" height="40" loading="lazy">
+          <span>FENSA</span>
+        </div>
+        <div class="brand-slide-card" data-brand="sindelen" aria-hidden="true">
+          <img src="assets/images/brands/sindelen.svg" alt="Calefón Sindelen Chile" width="120" height="40" loading="lazy">
+          <span>SINDELEN</span>
+        </div>
+        <div class="brand-slide-card" data-brand="albin trotter" aria-hidden="true">
+          <img src="assets/images/brands/albin-trotter.svg" alt="Calefones Albin Trotter" width="120" height="40" loading="lazy">
+          <span>ALBIN TROTTER</span>
+        </div>
+        <div class="brand-slide-card" data-brand="teka" aria-hidden="true">
+          <img src="assets/images/brands/teka.svg" alt="Calefones Teka Chile" width="120" height="40" loading="lazy">
+          <span>TEKA</span>
+        </div>
+        <div class="brand-slide-card" data-brand="midea" aria-hidden="true">
+          <img src="assets/images/brands/midea.svg" alt="Calefón Midea Chile" width="120" height="40" loading="lazy">
+          <span>MIDEA</span>
+        </div>
+        <div class="brand-slide-card" data-brand="haier" aria-hidden="true">
+          <img src="assets/images/brands/haier.svg" alt="Calefones Haier" width="120" height="40" loading="lazy">
+          <span>HAIER</span>
+        </div>
+        <div class="brand-slide-card" data-brand="walter trotter" aria-hidden="true">
+          <img src="assets/images/brands/walter-trotter.svg" alt="Walter Trotter Chile" width="120" height="40" loading="lazy">
           <span>WALTER TROTTER</span>
         </div>
       </div>
@@ -431,8 +452,8 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ==========================================================================
-     SERVICIOS PRINCIPALES EN SLIDER
-     "Y acá lo mismo, servicios técnicos profesionales a domicilio, todo en slider"
+     SERVICIOS PRINCIPALES EN GRILLA
+     Alta conversión, visión clara e inmediata de todas las soluciones
      ========================================================================== -->
 <section class="services-section" id="servicios">
   <div class="container">
@@ -440,130 +461,106 @@ require_once __DIR__ . '/includes/header.php';
       <span class="section-tag">Soluciones Integrales</span>
       <h2 class="section-title">Servicios Técnicos Profesionales a Domicilio</h2>
       <p class="section-subtitle">
-        Desliza para conocer todos los servicios ejecutados bajo estricta normativa de la SEC en Chile:
+        Conoce nuestros servicios ejecutados bajo estricta normativa de la SEC en todo Chile:
       </p>
     </div>
 
-    <div class="custom-slider-container">
-      <div class="slider-controls-bar">
-        <div class="slider-status-wrap">
-          <span class="slider-status-pill playing" id="servicesStatus">
-            <span class="pulse-dot"></span> <span class="status-label">Autoplay activo</span>
-          </span>
-          <span class="slider-swipe-hint">
-            <i class="fa-solid fa-hand-pointer"></i> Pasa el mouse o lee para pausar
-          </span>
-        </div>
-        <div class="slider-arrows">
-          <button class="slider-arrow-btn" id="servicesPrevBtn" aria-label="Servicio Anterior">
-            <i class="fa-solid fa-chevron-left"></i>
-          </button>
-          <button class="slider-arrow-btn" id="servicesNextBtn" aria-label="Siguiente Servicio">
-            <i class="fa-solid fa-chevron-right"></i>
-          </button>
-        </div>
+    <div class="services-grid">
+      <!-- Servicio 1: Reparación -->
+      <div class="service-card">
+        <span class="service-badge badge-reparacion">Atención en el Día</span>
+        <h3>Reparación de Calefones</h3>
+        <p>
+          Diagnóstico certero y reparación inmediata en terreno. Cambiamos piezas defectuosas con repuestos legítimos de cada fabricante.
+        </p>
+        <ul class="service-feature-list">
+          <li><i class="fa-solid fa-check"></i> Reemplazo de membranas y diafragmas de silicona</li>
+          <li><i class="fa-solid fa-check"></i> Cambio de microswitch, electrodos y termocuplas</li>
+          <li><i class="fa-solid fa-check"></i> Reparación de módulos electrónicos y solenoides</li>
+          <li><i class="fa-solid fa-check"></i> Pruebas de encendido seguro y sellado de gases</li>
+        </ul>
+        <a href="#cotizar" class="btn btn-flame">Solicitar Reparación</a>
       </div>
 
-      <div class="slider-scroll-track" id="servicesSliderTrack">
-        <!-- Servicio 1: Reparación -->
-        <div class="service-slide-item">
-          <span class="service-badge badge-reparacion">Atención en el Día</span>
-          <h3>Reparación de Calefones</h3>
-          <p>
-            Diagnóstico certero y reparación inmediata en terreno. Cambiamos piezas defectuosas con repuestos legítimos de cada fabricante.
-          </p>
-          <ul class="service-feature-list">
-            <li><i class="fa-solid fa-check"></i> Reemplazo de membranas y diafragmas de silicona</li>
-            <li><i class="fa-solid fa-check"></i> Cambio de microswitch, electrodos y termocuplas</li>
-            <li><i class="fa-solid fa-check"></i> Reparación de módulos electrónicos y solenoides</li>
-            <li><i class="fa-solid fa-check"></i> Pruebas de encendido seguro y sellado de gases</li>
-          </ul>
-          <a href="#cotizar" class="btn btn-flame">Solicitar Reparación</a>
-        </div>
-
-        <!-- Servicio 2: Mantención -->
-        <div class="service-slide-item">
-          <span class="service-badge badge-mantencion">Prevención &amp; Ahorro</span>
-          <h3>Mantención Preventiva y Correctiva</h3>
-          <p>
-            Alarga la vida útil de tu calefón, disminuye hasta un 25% el consumo de gas y previene intoxicaciones por monóxido de carbono.
-          </p>
-          <ul class="service-feature-list">
-            <li><i class="fa-solid fa-check"></i> Desincrustación química de sarro en serpentín</li>
-            <li><i class="fa-solid fa-check"></i> Desarme y limpieza profunda de quemadores e inyectores</li>
-            <li><i class="fa-solid fa-check"></i> Calibración del caudal de agua y presión de gas</li>
-            <li><i class="fa-solid fa-check"></i> Test de evacuación de monóxido y combustión limpia</li>
-          </ul>
-          <a href="#cotizar" class="btn btn-flame">Agendar Mantención</a>
-        </div>
-
-        <!-- Servicio 3: Instalación SEC -->
-        <div class="service-slide-item">
-          <span class="service-badge badge-instalacion">Norma DS 66 SEC</span>
-          <h3>Instalación Certificada SEC</h3>
-          <p>
-            Montaje y conexión de calefones nuevos de tiro natural, tiro forzado y eléctricos cumpliendo toda la normativa legal chilena.
-          </p>
-          <ul class="service-feature-list">
-            <li><i class="fa-solid fa-check"></i> Conexión en cañería de cobre con llave de paso reglamentaria</li>
-            <li><i class="fa-solid fa-check"></i> Instalación de ducto de evacuación y sombrerete</li>
-            <li><i class="fa-solid fa-check"></i> Prueba de hermeticidad certificada libre de fugas</li>
-            <li><i class="fa-solid fa-check"></i> Emisión de informe técnico para garantías de fábrica</li>
-          </ul>
-          <a href="#cotizar" class="btn btn-flame">Cotizar Instalación</a>
-        </div>
-
-        <!-- Servicio 4: Fugas y Cañerías -->
-        <div class="service-slide-item">
-          <span class="service-badge badge-fugas">Seguridad Crítica</span>
-          <h3>Detección y Reparación de Fugas</h3>
-          <p>
-            Localización de fugas invisibles en redes de gas licuado (GLP) y gas natural (GN) mediante detectores electrónicos de alta sensibilidad.
-          </p>
-          <ul class="service-feature-list">
-            <li><i class="fa-solid fa-check"></i> Escaneo digital de cañerías, flexibles y llaves de paso</li>
-            <li><i class="fa-solid fa-check"></i> Soldadura de cañerías de cobre con aleación de plata</li>
-            <li><i class="fa-solid fa-check"></i> Regularización de sellos y ventilaciones reglamentarias</li>
-            <li><i class="fa-solid fa-check"></i> Atención prioritaria en el día para problemas de gas</li>
-          </ul>
-          <a href="tel:+56932237072" class="btn btn-phone">Llamar a Asistencia Técnica</a>
-        </div>
-
-        <!-- Servicio 5: Calderas y Calefacción -->
-        <div class="service-slide-item">
-          <span class="service-badge badge-mantencion">Climatización Central</span>
-          <h3>Servicio Técnico de Calderas</h3>
-          <p>
-            Mantenimiento correctivo y puesta a punto de calderas murales mixtas (agua caliente sanitaria y calefacción central por radiadores).
-          </p>
-          <ul class="service-feature-list">
-            <li><i class="fa-solid fa-check"></i> Purga de circuitos y calibración de vaso de expansión</li>
-            <li><i class="fa-solid fa-check"></i> Chequeo de bombas circuladoras y presostatos</li>
-            <li><i class="fa-solid fa-check"></i> Ajuste de termostatos programables de ambiente</li>
-            <li><i class="fa-solid fa-check"></i> Soporte marcas Anwo, Beretta, Junkers, Baxi, Vaillant</li>
-          </ul>
-          <a href="#cotizar" class="btn btn-flame">Soporte Calderas</a>
-        </div>
-
-        <!-- Servicio 6: Termos Eléctricos -->
-        <div class="service-slide-item">
-          <span class="service-badge badge-instalacion">Agua Caliente Eléctrica</span>
-          <h3>Termos Eléctricos y Acumuladores</h3>
-          <p>
-            Reparación y cambio de resistencia, ánodos de sacrificio de magnesio y termostatos de seguridad en termos eléctricos.
-          </p>
-          <ul class="service-feature-list">
-            <li><i class="fa-solid fa-check"></i> Cambio de ánodo de magnesio para evitar corrosión</li>
-            <li><i class="fa-solid fa-check"></i> Reemplazo de resistencia blindada y empaquetaduras</li>
-            <li><i class="fa-solid fa-check"></i> Instalación de válvulas de alivio y sobrepresión</li>
-            <li><i class="fa-solid fa-check"></i> Revisión del circuito eléctrico y puesta a tierra</li>
-          </ul>
-          <a href="#cotizar" class="btn btn-flame">Cotizar Termo</a>
-        </div>
+      <!-- Servicio 2: Mantención -->
+      <div class="service-card">
+        <span class="service-badge badge-mantencion">Prevención &amp; Ahorro</span>
+        <h3>Mantención Preventiva y Correctiva</h3>
+        <p>
+          Alarga la vida útil de tu calefón, disminuye hasta un 25% el consumo de gas y previene intoxicaciones por monóxido de carbono.
+        </p>
+        <ul class="service-feature-list">
+          <li><i class="fa-solid fa-check"></i> Desincrustación química de sarro en serpentín</li>
+          <li><i class="fa-solid fa-check"></i> Desarme y limpieza profunda de quemadores e inyectores</li>
+          <li><i class="fa-solid fa-check"></i> Calibración del caudal de agua y presión de gas</li>
+          <li><i class="fa-solid fa-check"></i> Test de evacuación de monóxido y combustión limpia</li>
+        </ul>
+        <a href="#cotizar" class="btn btn-flame">Agendar Mantención</a>
       </div>
 
-      <!-- Indicadores de puntos -->
-      <div class="slider-dots" id="servicesSliderDots"></div>
+      <!-- Servicio 3: Instalación SEC -->
+      <div class="service-card">
+        <span class="service-badge badge-instalacion">Norma DS 66 SEC</span>
+        <h3>Instalación Certificada SEC</h3>
+        <p>
+          Montaje y conexión de calefones nuevos de tiro natural, tiro forzado y eléctricos cumpliendo toda la normativa legal chilena.
+        </p>
+        <ul class="service-feature-list">
+          <li><i class="fa-solid fa-check"></i> Conexión en cañería de cobre con llave de paso reglamentaria</li>
+          <li><i class="fa-solid fa-check"></i> Instalación de ducto de evacuación y sombrerete</li>
+          <li><i class="fa-solid fa-check"></i> Prueba de hermeticidad certificada libre de fugas</li>
+          <li><i class="fa-solid fa-check"></i> Emisión de informe técnico para garantías de fábrica</li>
+        </ul>
+        <a href="#cotizar" class="btn btn-flame">Cotizar Instalación</a>
+      </div>
+
+      <!-- Servicio 4: Fugas y Cañerías -->
+      <div class="service-card">
+        <span class="service-badge badge-fugas">Seguridad Crítica</span>
+        <h3>Detección y Reparación de Fugas</h3>
+        <p>
+          Localización de fugas invisibles en redes de gas licuado (GLP) y gas natural (GN) mediante detectores electrónicos de alta sensibilidad.
+        </p>
+        <ul class="service-feature-list">
+          <li><i class="fa-solid fa-check"></i> Escaneo digital de cañerías, flexibles y llaves de paso</li>
+          <li><i class="fa-solid fa-check"></i> Soldadura de cañerías de cobre con aleación de plata</li>
+          <li><i class="fa-solid fa-check"></i> Regularización de sellos y ventilaciones reglamentarias</li>
+          <li><i class="fa-solid fa-check"></i> Atención prioritaria en el día para problemas de gas</li>
+        </ul>
+        <a href="tel:+56932237072" class="btn btn-phone">Llamar a Asistencia Técnica</a>
+      </div>
+
+      <!-- Servicio 5: Calderas y Calefacción -->
+      <div class="service-card">
+        <span class="service-badge badge-mantencion">Climatización Central</span>
+        <h3>Servicio Técnico de Calderas</h3>
+        <p>
+          Mantenimiento correctivo y puesta a punto de calderas murales mixtas (agua caliente sanitaria y calefacción central por radiadores).
+        </p>
+        <ul class="service-feature-list">
+          <li><i class="fa-solid fa-check"></i> Purga de circuitos y calibración de vaso de expansión</li>
+          <li><i class="fa-solid fa-check"></i> Chequeo de bombas circuladoras y presostatos</li>
+          <li><i class="fa-solid fa-check"></i> Ajuste de termostatos programables de ambiente</li>
+          <li><i class="fa-solid fa-check"></i> Soporte marcas Anwo, Beretta, Junkers, Baxi, Vaillant</li>
+        </ul>
+        <a href="#cotizar" class="btn btn-flame">Soporte Calderas</a>
+      </div>
+
+      <!-- Servicio 6: Termos Eléctricos -->
+      <div class="service-card">
+        <span class="service-badge badge-instalacion">Agua Caliente Eléctrica</span>
+        <h3>Termos Eléctricos y Acumuladores</h3>
+        <p>
+          Reparación y cambio de resistencia, ánodos de sacrificio de magnesio y termostatos de seguridad en termos eléctricos.
+        </p>
+        <ul class="service-feature-list">
+          <li><i class="fa-solid fa-check"></i> Cambio de ánodo de magnesio para evitar corrosión</li>
+          <li><i class="fa-solid fa-check"></i> Reemplazo de resistencia blindada y empaquetaduras</li>
+          <li><i class="fa-solid fa-check"></i> Instalación de válvulas de alivio y sobrepresión</li>
+          <li><i class="fa-solid fa-check"></i> Revisión del circuito eléctrico y puesta a tierra</li>
+        </ul>
+        <a href="#cotizar" class="btn btn-flame">Cotizar Termo</a>
+      </div>
     </div>
   </div>
 </section>

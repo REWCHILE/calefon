@@ -220,6 +220,7 @@ button, input, select, textarea {
   color: var(--color-sec-red);
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* Navegación Desktop */
@@ -942,11 +943,45 @@ button, input, select, textarea {
 /* ==========================================================================
    1. SLIDER DE MARCAS
    ========================================================================== */
+/* ==========================================================================
+   1. SLIDER Y MARQUEE DE MARCAS (GLIDE CONTINUO 60FPS)
+   ========================================================================== */
 .brands-section {
   background: #ffffff;
   padding: 3.5rem 0;
   border-bottom: 1px solid var(--color-border);
   overflow: hidden;
+}
+
+.brands-marquee-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 1.25rem 0;
+  margin-top: 1.5rem;
+  mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+}
+
+.brands-marquee-track {
+  display: flex;
+  gap: 1.25rem;
+  width: max-content;
+  animation: brandsMarquee 32s linear infinite;
+  will-change: transform;
+}
+
+.brands-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes brandsMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .section-tag {
@@ -983,11 +1018,10 @@ button, input, select, textarea {
   margin: 0 auto;
 }
 
-/* Tarjeta de marca en slider */
+/* Tarjeta de marca */
 .brand-slide-card {
   position: relative;
   flex: 0 0 170px;
-  scroll-snap-align: center;
   background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -997,11 +1031,11 @@ button, input, select, textarea {
   align-items: center;
   justify-content: center;
   gap: 0.65rem;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease, border-color 0.4s ease, opacity 0.4s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, opacity 0.3s ease;
   box-shadow: var(--shadow-sm);
   height: 110px;
   user-select: none;
-  opacity: 0.68;
+  opacity: 0.85;
 }
 
 .brand-slide-card img {
@@ -1010,7 +1044,7 @@ button, input, select, textarea {
   object-fit: contain;
   transition: transform var(--transition-fast), filter var(--transition-fast);
   pointer-events: none;
-  filter: grayscale(40%);
+  filter: grayscale(30%);
 }
 
 .brand-slide-card span {
@@ -1194,7 +1228,7 @@ button, input, select, textarea {
 }
 
 /* ==========================================================================
-   3. SLIDER DE SERVICIOS TÉCNICOS
+   3. SERVICIOS TÉCNICOS: GRILLA DE ALTA CONVERSIÓN & CLARIDAD
    ========================================================================== */
 .services-section {
   padding: 5rem 0;
@@ -1202,6 +1236,65 @@ button, input, select, textarea {
   overflow: hidden;
 }
 
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.service-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--color-flame);
+  box-shadow: 0 20px 40px -10px rgba(255, 94, 20, 0.25);
+}
+
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.service-card p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.service-card .btn {
+  margin-top: auto;
+}
+
+/* Compatibilidad Slider anterior */
 .service-slide-item {
   position: relative;
   flex: 0 0 88%;
@@ -1220,17 +1313,16 @@ button, input, select, textarea {
 
 @media (min-width: 680px) {
   .service-slide-item {
-    flex: 0 0 calc((100% - 1.5rem) / 2); /* Tablet: 2 tarjetas */
+    flex: 0 0 calc((100% - 1.5rem) / 2);
   }
 }
 
 @media (min-width: 1024px) {
   .service-slide-item {
-    flex: 0 0 calc((100% - 3rem) / 3); /* Desktop: 3 tarjetas */
+    flex: 0 0 calc((100% - 3rem) / 3);
   }
 }
 
-/* Estado Activo y Hover en Servicios */
 .service-slide-item:hover,
 .service-slide-item.is-active {
   opacity: 1;
@@ -1868,6 +1960,76 @@ button, input, select, textarea {
 }
 
 @media (max-width: 768px) {
+  /* Top Bar móvil en una sola línea limpia */
+  .top-bar {
+    padding: 0.35rem 0;
+  }
+  .top-bar-content {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .top-bar-text {
+    display: none !important; /* Oculta texto descriptivo largo para evitar quiebre a 3 líneas */
+  }
+  .top-bar-badge {
+    font-size: 0.72rem;
+    padding: 0.15rem 0.5rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .top-bar-links {
+    gap: 0.75rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Cabecera principal con espacio libre y sin apiñamiento */
+  .site-header {
+    height: 64px;
+  }
+  .header-container {
+    height: 64px;
+    padding: 0 0.85rem;
+  }
+  /* Ocultar el botón "Pedir Técnico" del header en móviles para no asfixiar el logo ni el título */
+  .header-actions .btn-whatsapp {
+    display: none !important;
+  }
+  .brand-logo-wrap {
+    gap: 0.65rem;
+    min-width: 0;
+  }
+  .brand-logo-img {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+  .brand-title-box {
+    min-width: 0;
+  }
+  .brand-title {
+    font-size: 1.18rem;
+    white-space: nowrap;
+    letter-spacing: -0.3px;
+    line-height: 1.1;
+  }
+  .brand-subtitle {
+    font-size: 0.65rem;
+    white-space: nowrap;
+    letter-spacing: 0.25px;
+    display: block;
+    margin-top: 1px;
+    line-height: 1.1;
+  }
+  .hamburger-btn {
+    width: 40px;
+    height: 40px;
+    padding: 9px 7px;
+    flex-shrink: 0;
+  }
+
   .hero-section {
     padding: 2.5rem 0 3.5rem 0;
   }
@@ -1894,3 +2056,17 @@ button, input, select, textarea {
     padding-bottom: 60px; /* Espacio para barra inferior */
   }
 }
+
+@media (max-width: 380px) {
+  .brand-title {
+    font-size: 1.05rem;
+  }
+  .brand-subtitle {
+    font-size: 0.58rem;
+    letter-spacing: 0.1px;
+  }
+  .top-bar-links .top-bar-wa {
+    display: none;
+  }
+}
+

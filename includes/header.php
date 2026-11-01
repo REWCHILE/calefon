@@ -205,17 +205,17 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
   <!-- Top Bar de Confianza y Respuesta Rápida -->
   <aside class="top-bar" aria-label="Atención Rápida">
     <div class="container top-bar-content">
-      <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <div class="top-bar-left">
         <span class="top-bar-badge">
           <span class="pulse-dot"></span> Respuesta Rápida
         </span>
-        <span>Atención a domicilio en todo Chile | Técnicos Certificados SEC</span>
+        <span class="top-bar-text">Atención a domicilio en todo Chile | Técnicos Certificados SEC</span>
       </div>
       <div class="top-bar-links">
         <a href="tel:+56932237072" class="top-bar-link">
           <i class="fa-solid fa-phone-volume"></i> 9 3223 7072
         </a>
-        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" class="top-bar-link" style="color: #4ade80;">
+        <a href="https://wa.me/56932237072?text=Hola%20Central%20Calefon,%20solicito%20asistencia%20t%C3%A9cnica%20a%20domicilio" target="_blank" class="top-bar-link top-bar-wa" style="color: #4ade80;">
           <i class="fa-brands fa-whatsapp"></i> WhatsApp Directo
         </a>
       </div>
@@ -227,7 +227,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
     <div class="container header-container">
       <!-- Logotipo e Identidad -->
       <a href="index.php" class="brand-logo-wrap" title="Central Calefón Chile - Inicio">
-        <img src="logotipo-central-calefon.webp" alt="Logotipo Central Calefón Gasfíter Certificado SEC" class="brand-logo-img">
+        <img src="logotipo-central-calefon.webp" alt="Logotipo Central Calefón Gasfíter Certificado SEC" class="brand-logo-img" width="52" height="52">
         <div class="brand-title-box">
           <div class="brand-title">CENTRAL <span>CALEFÓN</span></div>
           <div class="brand-subtitle">Gasfíter Autorizado SEC Chile</div>
@@ -270,7 +270,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
     <div class="mobile-nav-drawer" id="mobileNavDrawer" role="dialog" aria-modal="true" aria-label="Menú Móvil">
       <div class="drawer-header">
         <div class="brand-logo-wrap">
-          <img src="logotipo-central-calefon.webp" alt="Central Calefón" style="width: 40px; height: 40px; border-radius: 50%;">
+          <img src="logotipo-central-calefon.webp" alt="Central Calefón" width="40" height="40" style="width: 40px; height: 40px; border-radius: 50%;">
           <div class="brand-title-box">
             <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.1rem; color: var(--color-primary);">CENTRAL CALEFÓN</span>
             <span style="font-size: 0.7rem; font-weight: 700; color: #c41230;">CERTIFICADO SEC</span>
@@ -309,7 +309,7 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
 
         <!-- Credencial SEC en Menú Móvil -->
         <div class="drawer-sec-badge">
-          <img src="imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño">
+          <img src="imagen-certificado-encargado-domingo-isain-caamaño.jpg" alt="Domingo Isaín Plaza Caamaño" width="46" height="46">
           <div>
             <div style="font-weight: 800; font-size: 0.85rem; color: var(--color-primary);">Domingo Isaín Plaza</div>
             <div style="font-size: 0.75rem; color: #64748b;">RUT: 12.738.961-6</div>

@@ -322,17 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // 1. Slider de Marcas de Calefón (Autoplay continuo y fluido: 2000ms)
-  const brandsSlider = setupResponsiveSlider({
-    trackId: 'brandsSliderTrack',
-    prevBtnId: 'brandsPrevBtn',
-    nextBtnId: 'brandsNextBtn',
-    statusId: 'brandsStatus',
-    autoScroll: true,
-    autoScrollDelay: 2000
-  });
-
-  // 2. Slider de Diagnóstico Rápido de Averías (Autoplay: 4200ms)
+  // 1. Slider de Diagnóstico Rápido de Averías (Interactivo con Autoplay)
   const diagSlider = setupResponsiveSlider({
     trackId: 'diagSliderTrack',
     prevBtnId: 'diagPrevBtn',
@@ -343,48 +333,45 @@ document.addEventListener('DOMContentLoaded', () => {
     autoScrollDelay: 4200
   });
 
-  // 3. Slider de Servicios Técnicos a Domicilio (Autoplay: 4500ms)
-  const servicesSlider = setupResponsiveSlider({
-    trackId: 'servicesSliderTrack',
-    prevBtnId: 'servicesPrevBtn',
-    nextBtnId: 'servicesNextBtn',
-    dotsId: 'servicesSliderDots',
-    statusId: 'servicesStatus',
-    autoScroll: true,
-    autoScrollDelay: 4500
-  });
-
-  // Buscador de Marcas interactivo en Slider
+  // 2. Buscador interactivo sobre el Marquee Continuo de Marcas
   const brandSearchInput = document.getElementById('brandSearchInput');
   const brandCards = document.querySelectorAll('.brand-slide-card');
-  const brandsTrack = document.getElementById('brandsSliderTrack');
+  const marqueeTrack = document.getElementById('brandsMarqueeTrack');
 
-  if (brandSearchInput && brandsTrack) {
+  if (brandSearchInput && marqueeTrack) {
     brandSearchInput.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
       let firstMatch = null;
 
-      brandCards.forEach(card => {
-        const brandName = card.getAttribute('data-brand')?.toLowerCase() || '';
-        if (query && brandName.includes(query)) {
-          card.classList.add('highlighted');
-          card.style.opacity = '1';
-          if (!firstMatch) firstMatch = card;
-        } else if (query) {
-          card.classList.remove('highlighted');
-          card.style.opacity = '0.35';
-        } else {
-          card.classList.remove('highlighted');
-          card.style.opacity = '1';
-        }
-      });
+      if (query.length > 0) {
+        // Pausar animación durante la búsqueda
+        marqueeTrack.style.animationPlayState = 'paused';
 
-      // Si encuentra coincidencia, desliza automáticamente hacia esa marca y pausa para lectura
-      if (firstMatch) {
-        firstMatch.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-        if (brandsSlider) brandsSlider.stopAuto(true);
-      } else if (!query) {
-        if (brandsSlider) brandsSlider.startAuto();
+        brandCards.forEach(card => {
+          const brandName = card.getAttribute('data-brand')?.toLowerCase() || '';
+          if (brandName.includes(query)) {
+            card.classList.add('highlighted');
+            card.style.opacity = '1';
+            card.style.transform = 'scale(1.05)';
+            if (!firstMatch) firstMatch = card;
+          } else {
+            card.classList.remove('highlighted');
+            card.style.opacity = '0.3';
+            card.style.transform = 'scale(0.95)';
+          }
+        });
+
+        if (firstMatch) {
+          firstMatch.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
+      } else {
+        // Reanudar loop continuo
+        marqueeTrack.style.animationPlayState = 'running';
+        brandCards.forEach(card => {
+          card.classList.remove('highlighted');
+          card.style.opacity = '';
+          card.style.transform = '';
+        });
       }
     });
   }
