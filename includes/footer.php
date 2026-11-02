@@ -32,10 +32,10 @@
         <div class="footer-col">
           <div style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">Servicios Técnicos</div>
           <ul class="footer-links">
-            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Reparación Especializada de Calefones</a></li>
-            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Mantención Preventiva y Descalcificación</a></li>
-            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Instalación Certificada SEC Norma DS 66</a></li>
-            <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Detección y Fugas de Gas GLP/GN</a></li>
+            <li><a href="/#reparacion"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Reparación Especializada de Calefones</a></li>
+            <li><a href="/#mantencion"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Mantención Preventiva y Descalcificación</a></li>
+            <li><a href="/#instalacion"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Instalación Certificada SEC Norma DS 66</a></li>
+            <li><a href="/#fugas"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Detección y Fugas de Gas GLP/GN</a></li>
             <li><a href="/#tipos"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Calefones Tiro Forzado &amp; Ionizados</a></li>
             <li><a href="/#diagnostico"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Diagnóstico Rápido de Averías</a></li>
           </ul>
@@ -84,34 +84,34 @@
           Servicio Técnico de Calefón por Comunas en Santiago y Regiones:
         </div>
         <div style="display: flex; flex-wrap: wrap; gap: 0.45rem 0.85rem; font-size: 0.82rem; line-height: 1.6;">
-          <a href="/servicio-tecnico-calefon-penalolen/" style="color: #94a3b8;">Peñalolén</a>
-          <a href="/servicio-tecnico-calefon-macul/" style="color: #94a3b8;">Macul</a>
-          <a href="/servicio-tecnico-calefon-providencia/" style="color: #94a3b8;">Providencia</a>
-          <a href="/servicio-tecnico-calefon-las-condes/" style="color: #94a3b8;">Las Condes</a>
-          <a href="/servicio-tecnico-calefon-la-florida/" style="color: #94a3b8;">La Florida</a>
-          <a href="/servicio-tecnico-calefon-nunoa/" style="color: #94a3b8;">Ñuñoa</a>
-          <a href="/servicio-tecnico-calefon-santiago/" style="color: #94a3b8;">Santiago Centro</a>
-          <a href="/servicio-tecnico-calefon-maipu/" style="color: #94a3b8;">Maipú</a>
-          <a href="/servicio-tecnico-calefon-san-joaquin/" style="color: #94a3b8;">San Joaquín</a>
-          <a href="/servicio-tecnico-calefon-estacion-central/" style="color: #94a3b8;">Estación Central</a>
-          <a href="/servicio-tecnico-pedro-aguirre-cerda/" style="color: #94a3b8;">Pedro Aguirre Cerda</a>
-          <a href="/servicio-tecnico-calefon-renca/" style="color: #94a3b8;">Renca</a>
-          <a href="/servicio-tecnico-calefon-puente-alto/" style="color: #94a3b8;">Puente Alto</a>
-          <a href="/servicio-tecnico-calefon-san-miguel/" style="color: #94a3b8;">San Miguel</a>
-          <a href="/servicio-tecnico-calefon-la-reina/" style="color: #94a3b8;">La Reina</a>
-          <a href="/servicio-tecnico-calefon-vitacura/" style="color: #94a3b8;">Vitacura</a>
-          <a href="/servicio-tecnico-calefon-lo-barnechea/" style="color: #94a3b8;">Lo Barnechea</a>
-          <a href="/servicio-tecnico-calefon-recoleta/" style="color: #94a3b8;">Recoleta</a>
-          <a href="/servicio-tecnico-calefon-quilicura/" style="color: #94a3b8;">Quilicura</a>
-          <a href="/servicio-tecnico-calefon-pudahuel/" style="color: #94a3b8;">Pudahuel</a>
-          <a href="/servicio-tecnico-calefon-san-bernardo/" style="color: #94a3b8;">San Bernardo</a>
-          <a href="/servicio-tecnico-calefon-buin/" style="color: #94a3b8;">Buin</a>
-          <a href="/servicio-tecnico-calefon-paine/" style="color: #94a3b8;">Paine</a>
-          <a href="/servicio-tecnico-calefon-pirque/" style="color: #94a3b8;">Pirque</a>
-          <a href="/servicio-tecnico-calefon-padre-hurtado/" style="color: #94a3b8;">Padre Hurtado</a>
-          <a href="/servicio-tecnico-calefon-colina/" style="color: #94a3b8;">Colina</a>
-          <a href="/servicio-tecnico-autorizado-calefon/" style="color: #38bdf8; font-weight: 700;">Servicio Autorizado</a>
-          <a href="/servicio-tecnico-especialista-en-calefon/" style="color: #ff8c42; font-weight: 700;">Especialista SEC</a>
+          <a href="/servicio-tecnico-calefon-penalolen/" style="color: #94a3b8;">Calefones Peñalolén</a>
+          <a href="/servicio-tecnico-calefon-macul/" style="color: #94a3b8;">Calefones Macul</a>
+          <a href="/servicio-tecnico-calefon-providencia/" style="color: #94a3b8;">Calefones Providencia</a>
+          <a href="/servicio-tecnico-calefon-las-condes/" style="color: #94a3b8;">Calefones Las Condes</a>
+          <a href="/servicio-tecnico-calefon-la-florida/" style="color: #94a3b8;">Calefones La Florida</a>
+          <a href="/servicio-tecnico-calefon-nunoa/" style="color: #94a3b8;">Calefones Ñuñoa</a>
+          <a href="/servicio-tecnico-calefon-santiago/" style="color: #94a3b8;">Calefones Santiago Centro</a>
+          <a href="/servicio-tecnico-calefon-maipu/" style="color: #94a3b8;">Calefones Maipú</a>
+          <a href="/servicio-tecnico-calefon-san-joaquin/" style="color: #94a3b8;">Calefones San Joaquín</a>
+          <a href="/servicio-tecnico-calefon-estacion-central/" style="color: #94a3b8;">Calefones Estación Central</a>
+          <a href="/servicio-tecnico-pedro-aguirre-cerda/" style="color: #94a3b8;">Calefones Pedro Aguirre Cerda</a>
+          <a href="/servicio-tecnico-calefon-renca/" style="color: #94a3b8;">Calefones Renca</a>
+          <a href="/servicio-tecnico-calefon-puente-alto/" style="color: #94a3b8;">Calefones Puente Alto</a>
+          <a href="/servicio-tecnico-calefon-san-miguel/" style="color: #94a3b8;">Calefones San Miguel</a>
+          <a href="/servicio-tecnico-calefon-la-reina/" style="color: #94a3b8;">Calefones La Reina</a>
+          <a href="/servicio-tecnico-calefon-vitacura/" style="color: #94a3b8;">Calefones Vitacura</a>
+          <a href="/servicio-tecnico-calefon-lo-barnechea/" style="color: #94a3b8;">Calefones Lo Barnechea</a>
+          <a href="/servicio-tecnico-calefon-recoleta/" style="color: #94a3b8;">Calefones Recoleta</a>
+          <a href="/servicio-tecnico-calefon-quilicura/" style="color: #94a3b8;">Calefones Quilicura</a>
+          <a href="/servicio-tecnico-calefon-pudahuel/" style="color: #94a3b8;">Calefones Pudahuel</a>
+          <a href="/servicio-tecnico-calefon-san-bernardo/" style="color: #94a3b8;">Calefones San Bernardo</a>
+          <a href="/servicio-tecnico-calefon-buin/" style="color: #94a3b8;">Calefones Buin</a>
+          <a href="/servicio-tecnico-calefon-paine/" style="color: #94a3b8;">Calefones Paine</a>
+          <a href="/servicio-tecnico-calefon-pirque/" style="color: #94a3b8;">Calefones Pirque</a>
+          <a href="/servicio-tecnico-calefon-padre-hurtado/" style="color: #94a3b8;">Calefones Padre Hurtado</a>
+          <a href="/servicio-tecnico-calefon-colina/" style="color: #94a3b8;">Calefones Colina</a>
+          <a href="/servicio-tecnico-autorizado-calefon/" style="color: #38bdf8; font-weight: 700;">Servicio Autorizado SEC</a>
+          <a href="/servicio-tecnico-especialista-en-calefon/" style="color: #ff8c42; font-weight: 700;">Técnico Especialista SEC</a>
         </div>
       </div>
 
@@ -122,9 +122,9 @@
           Compartir Central Calefón en redes sociales:
         </div>
         <div style="display: flex; gap: 0.5rem; align-items: center;">
-          <a href="https://api.whatsapp.com/send?text=Central%20Calef%C3%B3n%20Chile%20-%20Servicio%20T%C3%A9cnico%20Calefones%20SEC%20a%20domicilio%20https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #25D366; background: rgba(37,211,102,0.12); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #1877F2; background: rgba(24,119,242,0.12); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-facebook"></i> Facebook</a>
-          <a href="https://twitter.com/intent/tweet?text=Central%20Calef%C3%B3n%20Chile%20-%20Servicio%20T%C3%A9cnico%20SEC&url=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #cbd5e1; background: rgba(255,255,255,0.08); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-x-twitter"></i> X</a>
+          <a href="https://api.whatsapp.com/send?text=Central%20Calef%C3%B3n%20Chile%20-%20Servicio%20T%C3%A9cnico%20Calefones%20SEC%20a%20domicilio%20https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #25D366; background: rgba(37,211,102,0.12); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-whatsapp"></i> Compartir por WhatsApp</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #1877F2; background: rgba(24,119,242,0.12); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-facebook"></i> Compartir por Facebook</a>
+          <a href="https://twitter.com/intent/tweet?text=Central%20Calef%C3%B3n%20Chile%20-%20Servicio%20T%C3%A9cnico%20SEC&url=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #cbd5e1; background: rgba(255,255,255,0.08); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-x-twitter"></i> Compartir por X</a>
         </div>
       </div>
 

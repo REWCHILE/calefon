@@ -476,7 +476,7 @@ require_once __DIR__ . '/includes/header.php';
 
     <div class="services-grid">
       <!-- Servicio 1: Reparación -->
-      <div class="service-card">
+      <div class="service-card" id="reparacion">
         <span class="service-badge badge-reparacion">Atención en el Día</span>
         <h3>Reparación de Calefones</h3>
         <p>
@@ -492,7 +492,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <!-- Servicio 2: Mantención -->
-      <div class="service-card">
+      <div class="service-card" id="mantencion">
         <span class="service-badge badge-mantencion">Prevención &amp; Ahorro</span>
         <h3>Mantención Preventiva y Correctiva</h3>
         <p>
@@ -508,7 +508,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <!-- Servicio 3: Instalación SEC -->
-      <div class="service-card">
+      <div class="service-card" id="instalacion">
         <span class="service-badge badge-instalacion">Norma DS 66 SEC</span>
         <h3>Instalación Certificada SEC</h3>
         <p>
@@ -524,7 +524,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <!-- Servicio 4: Fugas y Cañerías -->
-      <div class="service-card">
+      <div class="service-card" id="fugas">
         <span class="service-badge badge-fugas">Seguridad Crítica</span>
         <h3>Detección y Reparación de Fugas</h3>
         <p>
@@ -540,7 +540,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <!-- Servicio 5: Calderas y Calefacción -->
-      <div class="service-card">
+      <div class="service-card" id="calderas">
         <span class="service-badge badge-mantencion">Climatización Central</span>
         <h3>Servicio Técnico de Calderas</h3>
         <p>
@@ -556,7 +556,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <!-- Servicio 6: Termos Eléctricos -->
-      <div class="service-card">
+      <div class="service-card" id="termos">
         <span class="service-badge badge-instalacion">Agua Caliente Eléctrica</span>
         <h3>Termos Eléctricos y Acumuladores</h3>
         <p>
@@ -986,7 +986,7 @@ require_once __DIR__ . '/includes/header.php';
           <li><a href="/servicio-tecnico-calefon-pudahuel/">Pudahuel</a></li>
           <li><a href="/servicio-tecnico-calefon-colina/">Colina / Chicureo</a></li>
           <li><a href="/servicio-tecnico-calefon-san-bernardo/">San Bernardo</a></li>
-          <li><a href="/servicio-tecnico-calefon-san-joaquin/">San Joaquín</a></li>
+          <li><a href="/servicio-tecnico-calefon-san-joaquin/">San Joaquín (Santiago)</a></li>
           <li><a href="/servicio-tecnico-calefon-renca/">Renca</a></li>
           <li><a href="/servicio-tecnico-calefon-lo-barnechea/">Lo Barnechea</a></li>
           <li><a href="/servicio-tecnico-pedro-aguirre-cerda/">Pedro Aguirre Cerda</a></li>
@@ -1017,7 +1017,7 @@ require_once __DIR__ . '/includes/header.php';
         <ul class="coverage-list">
           <li><a href="/servicio-tecnico-calefon-la-serena/">La Serena</a></li>
           <li><a href="/servicio-tecnico-calefon-coquimbo/">Coquimbo</a></li>
-          <li><a href="/servicio-tecnico-calefon-san-joaquin-la-serena/">San Joaquín</a></li>
+          <li><a href="/servicio-tecnico-calefon-san-joaquin-la-serena/">San Joaquín (La Serena)</a></li>
           <li><a href="/servicio-tecnico-calefon-penuelas/">Peñuelas</a></li>
           <li><a href="/servicio-tecnico-calefon-las-companias/">Las Compañías</a></li>
           <li><a href="/servicio-tecnico-calefon-tierras-blancas/">Tierras Blancas</a></li>
