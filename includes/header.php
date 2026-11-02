@@ -1,10 +1,10 @@
 <?php
 // includes/header.php
 if (!isset($pageTitle)) {
-    $pageTitle = "Central Calefón | Servicio Técnico Gasfíter Certificado SEC a Domicilio Chile";
+    $pageTitle = "Central Calefón | Servicio Técnico Calefones SEC Chile";
 }
 if (!isset($pageDescription)) {
-    $pageDescription = "Servicio técnico especialista en reparación, mantención e instalación de calefones y calderas a domicilio en Chile. Técnicos autorizados SEC. Cobertura en todo el territorio nacional. Llama al +56 9 3223 7072.";
+    $pageDescription = "Servicio técnico de calefones a domicilio en Chile. Gasfíter autorizados SEC. Reparación, mantención multimarca y repuestos. WhatsApp: +56 9 3223 7072.";
 }
 if (!isset($currentPage)) {
     $currentPage = 'home';
@@ -57,6 +57,8 @@ $ogImage = "https://centralcalefon.cl/assets/images/og-central-calefon-sec.jpg";
   <!-- Hoja de Estilos Principal -->
   <link rel="stylesheet" href="/assets/css/styles.css?v=<?php echo file_exists(__DIR__ . '/../assets/css/styles.css') ? filemtime(__DIR__ . '/../assets/css/styles.css') : '1.2'; ?>">
   <link rel="icon" type="image/webp" href="/logotipo-central-calefon.webp">
+  <link rel="apple-touch-icon" href="/logotipo-central-calefon.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="/logotipo-central-calefon.webp">
 
   <!-- SCHEMA JSON-LD: LocalBusiness + Plumber + HVACBusiness -->
   <script type="application/ld+json">

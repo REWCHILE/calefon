@@ -1,7 +1,7 @@
 <?php
 // index.php
-$pageTitle = "Central Calefón Chile | Reparación, Mantención e Instalación Gasfíter SEC";
-$pageDescription = "Servicio técnico especialista en calefones a domicilio en Chile. Técnicos autorizados SEC. Reparación urgente, mantención y repuestos Junkers, Splendid, Mademsa, Rheem, Trotter y todas las marcas. WhatsApp +56 9 3223 7072.";
+$pageTitle = "Central Calefón | Servicio Técnico Calefones SEC Chile";
+$pageDescription = "Servicio técnico de calefones a domicilio en Chile. Gasfíter autorizados SEC. Reparación, mantención multimarca y repuestos. WhatsApp: +56 9 3223 7072.";
 $currentPage = 'home';
 require_once __DIR__ . '/includes/header.php';
 ?>
@@ -86,7 +86,7 @@ require_once __DIR__ . '/includes/header.php';
             <span class="technician-badge-sec">SEC</span>
           </div>
           <div class="technician-info">
-            <h3>Domingo Isaín Plaza Caamaño</h3>
+            <div class="technician-name" style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 800; color: var(--color-primary); margin-bottom: 0.25rem;">Domingo Isaín Plaza Caamaño</div>
             <div class="technician-rut">RUT: 12.738.961-6</div>
             <span class="technician-cargo">Técnico Gasfíter &amp; Instalador Autorizado</span>
           </div>
@@ -598,7 +598,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="field-service-item">
             <div class="field-item-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
             <div>
-              <h4>Diagnóstico y Detección de Fugas</h4>
+              <strong class="field-item-title" style="display: block; font-size: 1.05rem; font-weight: 700; color: #fff; margin-bottom: 0.35rem;">Diagnóstico y Detección de Fugas</strong>
               <p>Revisión con instrumental calibrado de estanqueidad, presión de gas dinámica y estado de las redes.</p>
             </div>
           </div>
@@ -606,7 +606,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="field-service-item">
             <div class="field-item-icon"><i class="fa-solid fa-gears"></i></div>
             <div>
-              <h4>Repuestos Legítimos In-Situ</h4>
+              <strong class="field-item-title" style="display: block; font-size: 1.05rem; font-weight: 700; color: #fff; margin-bottom: 0.35rem;">Repuestos Legítimos In-Situ</strong>
               <p>Cambio inmediato de diafragmas de silicona, serpentines, termocuplas y electroválvulas en el lugar.</p>
             </div>
           </div>
@@ -614,7 +614,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="field-service-item">
             <div class="field-item-icon"><i class="fa-solid fa-shield-halved"></i></div>
             <div>
-              <h4>Certificación SEC y Seguridad</h4>
+              <strong class="field-item-title" style="display: block; font-size: 1.05rem; font-weight: 700; color: #fff; margin-bottom: 0.35rem;">Certificación SEC y Seguridad</strong>
               <p>Atención directa por gasfíter autorizado con registro visible y comprobable en el portal oficial SEC.cl.</p>
             </div>
           </div>
@@ -622,7 +622,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="field-service-item">
             <div class="field-item-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
             <div>
-              <h4>Garantía Escrita y Boleta/Factura</h4>
+              <strong class="field-item-title" style="display: block; font-size: 1.05rem; font-weight: 700; color: #fff; margin-bottom: 0.35rem;">Garantía Escrita y Boleta/Factura</strong>
               <p>Respaldo formal de todos los trabajos realizados para tu total tranquilidad y la de tu familia.</p>
             </div>
           </div>

@@ -10,7 +10,7 @@
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
             <img src="/logotipo-central-calefon.webp" alt="Central Calefón" style="width: 50px; height: 50px; border-radius: 50%; background: #fff; padding: 2px;">
             <div>
-              <h3 style="font-family: var(--font-heading); font-size: 1.2rem; color: #fff; font-weight: 800; line-height: 1;">CENTRAL CALEFÓN</h3>
+              <div style="font-family: var(--font-heading); font-size: 1.2rem; color: #fff; font-weight: 800; line-height: 1;">CENTRAL CALEFÓN</div>
               <span style="font-size: 0.75rem; color: #ff8c42; font-weight: 700; text-transform: uppercase;">Servicio Técnico Autorizado SEC</span>
             </div>
           </div>
@@ -30,7 +30,7 @@
 
         <!-- Columna 2: Servicios Principales -->
         <div class="footer-col">
-          <h4>Servicios Técnicos</h4>
+          <div style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">Servicios Técnicos</div>
           <ul class="footer-links">
             <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Reparación Especializada de Calefones</a></li>
             <li><a href="/#servicios"><i class="fa-solid fa-angle-right" style="color: var(--color-flame); margin-right: 5px;"></i> Mantención Preventiva y Descalcificación</a></li>
@@ -43,7 +43,7 @@
 
         <!-- Columna 3: Marcas Atendidas -->
         <div class="footer-col">
-          <h4>Marcas en Chile</h4>
+          <div style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">Marcas en Chile</div>
           <ul class="footer-links">
             <li><a href="/#marcas">Junkers (Bosch) &amp; Bosch</a></li>
             <li><a href="/#marcas">Splendid &amp; Mademsa</a></li>
@@ -56,7 +56,7 @@
 
         <!-- Columna 4: Contacto y Cobertura -->
         <div class="footer-col">
-          <h4>Atención a Domicilio</h4>
+          <div style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">Atención a Domicilio</div>
           <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">
             <i class="fa-solid fa-phone" style="color: var(--color-flame); margin-right: 8px;"></i>
             <a href="tel:+56932237072" style="color: #fff; font-weight: 700;">+56 9 3223 7072</a>
@@ -79,10 +79,10 @@
 
       <!-- Cobertura Comunal y Posicionamiento SEO Local -->
       <div class="footer-comunas-wrap" style="margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(255, 255, 255, 0.08);">
-        <h5 style="color: #cbd5e1; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem;">
+        <div style="color: #cbd5e1; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem;">
           <i class="fa-solid fa-map-location-dot" style="color: var(--color-flame); margin-right: 6px;"></i>
           Servicio Técnico de Calefón por Comunas en Santiago y Regiones:
-        </h5>
+        </div>
         <div style="display: flex; flex-wrap: wrap; gap: 0.45rem 0.85rem; font-size: 0.82rem; line-height: 1.6;">
           <a href="/servicio-tecnico-calefon-penalolen/" style="color: #94a3b8;">Peñalolén</a>
           <a href="/servicio-tecnico-calefon-macul/" style="color: #94a3b8;">Macul</a>

@@ -1,7 +1,7 @@
 <?php
 // nosotros.php
-$pageTitle = "Sobre Nosotros | Central Calefón - Gasfíter Autorizado SEC Chile";
-$pageDescription = "Conoce a nuestro equipo técnico liderado por Domingo Isaín Plaza Caamaño, instalador de gas y gasfíter certificado por la SEC (RUT: 12.738.961-6). Seguridad, experiencia multimarca y garantía en todo Chile.";
+$pageTitle = "Nosotros | Central Calefón - Gasfíter Autorizado SEC";
+$pageDescription = "Técnicos liderados por Domingo Isaín Plaza Caamaño, instalador de gas y gasfíter autorizado SEC (RUT 12.738.961-6). Reparación de calefones en todo Chile.";
 $currentPage = 'nosotros';
 require_once __DIR__ . '/includes/header.php';
 ?>

@@ -1,7 +1,7 @@
 <?php
 // contacto.php
-$pageTitle = "Contacto Central Calefón | Gasfíter Autorizado SEC Chile a Domicilio";
-$pageDescription = "Solicita técnico a domicilio para reparación, mantención o instalación de calefón en Chile. Atención directa por WhatsApp al +56 9 3223 7072 sin esperas ni registros.";
+$pageTitle = "Contacto | Central Calefón - Gasfíter Autorizado SEC";
+$pageDescription = "Solicita técnico a domicilio para tu calefón en Chile. Atención directa por WhatsApp al +56 9 3223 7072 con gasfíteres autorizados SEC sin esperas.";
 $currentPage = 'contacto';
 require_once __DIR__ . '/includes/header.php';
 ?>
