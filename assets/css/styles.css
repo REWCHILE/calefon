@@ -1266,7 +1266,8 @@ button, input, select, textarea {
   box-shadow: 0 6px 16px rgba(220, 38, 38, 0.35);
 }
 
-.diagnostic-slide-item h3 {
+.diagnostic-slide-item h3,
+.diagnostic-slide-item .diagnostic-slide-title {
   font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 700;
@@ -1504,7 +1505,8 @@ button, input, select, textarea {
   flex-direction: column;
 }
 
-.tech-card h3 {
+.tech-card h3,
+.tech-card .tech-card-title {
   font-family: var(--font-heading);
   font-size: 1.3rem;
   color: #ffffff;
@@ -1827,7 +1829,8 @@ button, input, select, textarea {
   box-shadow: var(--shadow-sm);
 }
 
-.coverage-box h3 {
+.coverage-box h3,
+.coverage-box .coverage-box-title {
   font-family: var(--font-heading);
   font-size: 1.15rem;
   color: var(--color-primary);
@@ -1837,7 +1840,8 @@ button, input, select, textarea {
   gap: 0.5rem;
 }
 
-.coverage-box h3 i {
+.coverage-box h3 i,
+.coverage-box .coverage-box-title i {
   color: var(--color-flame);
 }
 

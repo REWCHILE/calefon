@@ -26,7 +26,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <h1 class="hero-title">
-        Servicio Técnico Especialista en <span class="highlight-flame">Calefones</span> y Calderas a Domicilio
+        Servicio Técnico Especialista en <span class="highlight-flame">Calefones SEC</span> a Domicilio en Chile
       </h1>
 
       <p class="hero-description">
@@ -339,12 +339,12 @@ require_once __DIR__ . '/includes/header.php';
             <div class="diagnostic-icon-box">
               <i class="fa-solid fa-plug-circle-xmark"></i>
             </div>
-            <h3>No da chispa ni prende</h3>
+            <div class="diagnostic-slide-title">No da chispa ni prende</div>
             <p class="diagnostic-symptoms">
               Abres la llave del agua caliente pero el calefón no reacciona, no suena el "tic-tic-tic" del chispero o la llama piloto no enciende.
             </p>
             <div class="diagnostic-solution-box">
-              <strong>Causa probable SEC:</strong>
+              <strong>Diagnóstico técnico SEC:</strong>
               Pilas alcalinas descargadas, microswitch sulfatado, diafragma de goma roto o módulo de encendido dañado.
             </div>
           </div>
@@ -359,12 +359,12 @@ require_once __DIR__ . '/includes/header.php';
             <div class="diagnostic-icon-box">
               <i class="fa-solid fa-fire-burner"></i>
             </div>
-            <h3>Prende y se apaga a los segundos</h3>
+            <div class="diagnostic-slide-title">Prende y se apaga a los segundos</div>
             <p class="diagnostic-symptoms">
               El calefón enciende, el quemador calienta brevemente pero se apaga antes de 1 minuto, dejando el agua helada durante la ducha.
             </p>
             <div class="diagnostic-solution-box">
-              <strong>Causa probable SEC:</strong>
+              <strong>Origen común de la avería:</strong>
               Sonda de ionización carbonizada, termocupla vencida, sensor de gases bloqueado o tiro forzado sin evacuación libre.
             </div>
           </div>
@@ -379,12 +379,12 @@ require_once __DIR__ . '/includes/header.php';
             <div class="diagnostic-icon-box">
               <i class="fa-solid fa-temperature-arrow-down"></i>
             </div>
-            <h3>Agua sale tibia o no calienta</h3>
+            <div class="diagnostic-slide-title">Agua sale tibia o no calienta</div>
             <p class="diagnostic-symptoms">
               La llama está encendida pero el agua nunca alcanza temperatura confortable, o sale con muy poco caudal y presión.
             </p>
             <div class="diagnostic-solution-box">
-              <strong>Causa probable SEC:</strong>
+              <strong>Causa técnica detectada:</strong>
               Incrustación severa de sarro en el serpentín de cobre, membrana deformada o presión de gas insuficiente.
             </div>
           </div>
@@ -399,12 +399,12 @@ require_once __DIR__ . '/includes/header.php';
             <div class="diagnostic-icon-box">
               <i class="fa-solid fa-triangle-exclamation"></i>
             </div>
-            <h3 style="color: #dc2626;">Olor a gas o goteo de agua</h3>
+            <div class="diagnostic-slide-title" style="color: #dc2626;">Olor a gas o goteo de agua</div>
             <p class="diagnostic-symptoms">
               Sientes olor a gas licuado o natural cerca del equipo, o notas filtración continua de agua debajo del cuerpo de agua.
             </p>
             <div class="diagnostic-solution-box" style="border-left-color: #dc2626;">
-              <strong>Acción Recomendada SEC:</strong>
+              <strong>Protocolo de seguridad SEC:</strong>
               Cierra la llave de paso de gas de inmediato. Fuga en uniones, empaquetaduras quemadas o rotura de prensa estopa.
             </div>
           </div>
@@ -419,12 +419,12 @@ require_once __DIR__ . '/includes/header.php';
             <div class="diagnostic-icon-box">
               <i class="fa-solid fa-burst"></i>
             </div>
-            <h3>Explosión o estruendo al encender</h3>
+            <div class="diagnostic-slide-title">Explosión o estruendo al encender</div>
             <p class="diagnostic-symptoms">
               El calefón acumula gas y genera un golpe o explosión seca al momento de encender los quemadores, sacudiendo la lata exterior.
             </p>
             <div class="diagnostic-solution-box">
-              <strong>Causa probable SEC:</strong>
+              <strong>Motivo técnico frecuente:</strong>
               Retardo en la chispa, electrodo mal posicionado, inyectores obstruidos con hollín o suciedad en quemadores.
             </div>
           </div>
@@ -439,12 +439,12 @@ require_once __DIR__ . '/includes/header.php';
             <div class="diagnostic-icon-box">
               <i class="fa-solid fa-display"></i>
             </div>
-            <h3>Código de error en pantalla</h3>
+            <div class="diagnostic-slide-title">Código de error en pantalla</div>
             <p class="diagnostic-symptoms">
               La pantalla digital parpadea mostrando códigos como E1, E2, E4, EA, F1 o F7 y el calefón entra en bloqueo de seguridad.
             </p>
             <div class="diagnostic-solution-box">
-              <strong>Causa probable SEC:</strong>
+              <strong>Revisión recomendada SEC:</strong>
               Falla en presostato de aire (tiro forzado), sobrecalentamiento térmico, sensor NTC defectuoso o corte de gas.
             </div>
           </div>
@@ -692,7 +692,7 @@ require_once __DIR__ . '/includes/header.php';
     <div class="tech-grid">
       <!-- Tipo 1: Tiro Forzado -->
       <div class="tech-card">
-        <h3><i class="fa-solid fa-fan" style="color: #38bdf8;"></i> Calefón de Tiro Forzado</h3>
+        <div class="tech-card-title"><i class="fa-solid fa-fan" style="color: #38bdf8;"></i> Calefón de Tiro Forzado</div>
         <p>
           Incorpora un ventilador o extractor eléctrico en la parte superior que expulsa mecánicamente los gases residuales de la combustión hacia el exterior. Es obligatorio por norma SEC en departamentos modernos, logias cerradas o espacios con ventilación natural restringida. Requiere enchufe eléctrico a 220V.
         </p>
@@ -706,7 +706,7 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Tipo 2: Ionizado (Sin Piloto) -->
       <div class="tech-card">
-        <h3><i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> Calefón Ionizado Automático</h3>
+        <div class="tech-card-title"><i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> Calefón Ionizado Automático</div>
         <p>
           No mantiene una llama piloto encendida permanentemente, ahorrando gas de forma considerable. Al abrir la llave del agua caliente, un microswitch activa una chispa electrónica y una electroválvula libera el gas; un sensor de ionización verifica la llama en milisegundos. Funciona con 1 o 2 pilas tipo D o hidrogenerador.
         </p>
@@ -720,7 +720,7 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Tipo 3: Tiro Natural Tradicional -->
       <div class="tech-card">
-        <h3><i class="fa-solid fa-wind" style="color: #4ade80;"></i> Calefón de Tiro Natural</h3>
+        <div class="tech-card-title"><i class="fa-solid fa-wind" style="color: #4ade80;"></i> Calefón de Tiro Natural</div>
         <p>
           La evacuación de gases se produce naturalmente por diferencia de densidad del aire caliente que asciende por el ducto vertical hacia el exterior. Requiere un ducto con altura reglamentaria y ventilaciones permanentes cruzadas en el recinto. Típico de casas tradicionales y patios de servicio techados.
         </p>
@@ -734,7 +734,7 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Tipo 4: Eléctricos y Acumulación -->
       <div class="tech-card">
-        <h3><i class="fa-solid fa-plug" style="color: #a855f7;"></i> Calefón Eléctrico &amp; Termos</h3>
+        <div class="tech-card-title"><i class="fa-solid fa-plug" style="color: #a855f7;"></i> Calefón Eléctrico &amp; Termos</div>
         <p>
           Calientan el agua sin quemar gas mediante resistencias eléctricas blindadas de cobre o acero inoxidable. Pueden ser de paso continuo (instantáneos de alta potencia) o por acumulación (termos de 50L, 80L, 100L a 150L con aislamiento de poliuretano de alta densidad). Ideales donde no llega red de gas.
         </p>
@@ -964,7 +964,7 @@ require_once __DIR__ . '/includes/header.php';
     <div class="coverage-grid">
       <!-- Región Metropolitana -->
       <div class="coverage-box">
-        <h3><i class="fa-solid fa-location-dot"></i> Región Metropolitana (Santiago)</h3>
+        <div class="coverage-box-title"><i class="fa-solid fa-location-dot"></i> Región Metropolitana (Santiago)</div>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Atención en todas las comunas del Gran Santiago:</p>
         <ul class="coverage-list">
           <li><a href="/servicio-tecnico-calefon-santiago/">Santiago Centro</a></li>
@@ -1012,7 +1012,7 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Región de Coquimbo -->
       <div class="coverage-box">
-        <h3><i class="fa-solid fa-location-dot"></i> Región de Coquimbo</h3>
+        <div class="coverage-box-title"><i class="fa-solid fa-location-dot"></i> Región de Coquimbo</div>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Móviles locales en la conurbación:</p>
         <ul class="coverage-list">
           <li><a href="/servicio-tecnico-calefon-la-serena/">La Serena</a></li>
@@ -1028,7 +1028,7 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Región de Valparaíso -->
       <div class="coverage-box">
-        <h3><i class="fa-solid fa-location-dot"></i> Región de Valparaíso</h3>
+        <div class="coverage-box-title"><i class="fa-solid fa-location-dot"></i> Región de Valparaíso</div>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Zona costera y ciudades del interior:</p>
         <ul class="coverage-list">
           <li><a href="/servicio-tecnico-calefon-vina-del-mar/">Viña del Mar</a></li>
@@ -1047,7 +1047,7 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Otras Regiones de Chile -->
       <div class="coverage-box">
-        <h3><i class="fa-solid fa-location-dot"></i> Cobertura Nacional</h3>
+        <div class="coverage-box-title"><i class="fa-solid fa-location-dot"></i> Cobertura Nacional</div>
         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 0.75rem;">Red de asistencia técnica autorizada:</p>
         <ul class="coverage-list">
           <li><a href="/servicio-tecnico-calefon-antofagasta/">Antofagasta</a></li>
@@ -1066,6 +1066,38 @@ require_once __DIR__ . '/includes/header.php';
           <li><a href="/servicio-tecnico-calefon-puerto-montt/">Puerto Montt</a></li>
         </ul>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     SOCIAL SHARING SECTION (SEO & Social Reach)
+     ========================================================================== -->
+<section class="social-share-section" style="padding: 2.25rem 0; background: linear-gradient(180deg, rgba(15,23,42,0.6) 0%, rgba(10,17,32,0.95) 100%); border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06);">
+  <div class="container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem;">
+    <div style="display: flex; align-items: center; gap: 0.85rem;">
+      <div style="width: 44px; height: 44px; border-radius: 50%; background: rgba(255, 107, 0, 0.15); display: flex; align-items: center; justify-content: center; color: var(--color-flame); font-size: 1.2rem;">
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+      <div>
+        <div style="font-family: var(--font-heading); font-weight: 800; color: #fff; font-size: 1.05rem;">¿Te fue útil esta información sobre calefones?</div>
+        <p style="font-size: 0.85rem; color: #94a3b8; margin: 0;">Comparte este servicio técnico autorizado SEC con tus familiares y amigos:</p>
+      </div>
+    </div>
+
+    <div class="social-share-buttons" style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;">
+      <a href="https://api.whatsapp.com/send?text=Servicio%20T%C3%A9cnico%20de%20Calefones%20SEC%20a%20domicilio%20en%20Chile%20-%20Central%20Calef%C3%B3n:%20https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" class="btn-share" title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp" style="background: #25D366; color: #fff; padding: 0.55rem 1rem; border-radius: 8px; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; box-shadow: 0 4px 12px rgba(37,211,102,0.25);">
+        <i class="fa-brands fa-whatsapp fa-lg"></i> WhatsApp
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" class="btn-share" title="Compartir en Facebook" aria-label="Compartir en Facebook" style="background: #1877F2; color: #fff; padding: 0.55rem 1rem; border-radius: 8px; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; box-shadow: 0 4px 12px rgba(24,119,242,0.25);">
+        <i class="fa-brands fa-facebook fa-lg"></i> Facebook
+      </a>
+      <a href="https://twitter.com/intent/tweet?text=Servicio%20T%C3%A9cnico%20de%20Calefones%20SEC%20a%20domicilio%20en%20Chile%20-%20Central%20Calef%C3%B3n&url=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" class="btn-share" title="Compartir en X" aria-label="Compartir en X" style="background: #000000; color: #fff; padding: 0.55rem 1rem; border-radius: 8px; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; border: 1px solid rgba(255,255,255,0.2);">
+        <i class="fa-brands fa-x-twitter fa-lg"></i> X (Twitter)
+      </a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" class="btn-share" title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn" style="background: #0A66C2; color: #fff; padding: 0.55rem 1rem; border-radius: 8px; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; box-shadow: 0 4px 12px rgba(10,102,194,0.25);">
+        <i class="fa-brands fa-linkedin fa-lg"></i> LinkedIn
+      </a>
     </div>
   </div>
 </section>

@@ -115,6 +115,19 @@
         </div>
       </div>
 
+      <!-- Redes y Compartir Servicio -->
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.06);">
+        <div style="font-size: 0.85rem; color: #94a3b8;">
+          <i class="fa-solid fa-share-nodes" style="color: var(--color-flame); margin-right: 6px;"></i>
+          Compartir Central Calefón en redes sociales:
+        </div>
+        <div style="display: flex; gap: 0.5rem; align-items: center;">
+          <a href="https://api.whatsapp.com/send?text=Central%20Calef%C3%B3n%20Chile%20-%20Servicio%20T%C3%A9cnico%20Calefones%20SEC%20a%20domicilio%20https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #25D366; background: rgba(37,211,102,0.12); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #1877F2; background: rgba(24,119,242,0.12); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="https://twitter.com/intent/tweet?text=Central%20Calef%C3%B3n%20Chile%20-%20Servicio%20T%C3%A9cnico%20SEC&url=https%3A%2F%2Fcentralcalefon.cl%2F" target="_blank" rel="noopener noreferrer" style="color: #cbd5e1; background: rgba(255,255,255,0.08); padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-brands fa-x-twitter"></i> X</a>
+        </div>
+      </div>
+
       <div class="footer-bottom">
         <div>
           &copy; <?php echo date('Y'); ?> <strong>Central Calefón</strong>. Todos los derechos reservados. Gasfíter autorizado y certificado SEC en Chile.

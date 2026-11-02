@@ -1,5 +1,27 @@
 <?php
 // includes/header.php
+// Redirección 301 Canónica Forzosa: www -> non-www y HTTP -> HTTPS
+if (isset($_SERVER['HTTP_HOST'])) {
+    $currentHost = strtolower($_SERVER['HTTP_HOST']);
+    $isWww = (strpos($currentHost, 'www.') === 0);
+    $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+               || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')
+               || (isset($_SERVER['HTTP_CF_VISITOR']) && strpos($_SERVER['HTTP_CF_VISITOR'], 'https') !== false)
+               || (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443);
+
+    if ($isWww || (!$isHttps && !in_array($currentHost, ['localhost', '127.0.0.1']) && strpos($currentHost, 'centralcalefon.cl') !== false)) {
+        $cleanHost = $isWww ? substr($currentHost, 4) : $currentHost;
+        $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
+        if (strpos($cleanHost, 'centralcalefon.cl') !== false) {
+            header("Location: https://centralcalefon.cl" . $requestUri, true, 301);
+            exit;
+        } elseif ($isWww) {
+            header("Location: https://" . $cleanHost . $requestUri, true, 301);
+            exit;
+        }
+    }
+}
+
 if (!isset($pageTitle)) {
     $pageTitle = "Central Calefón | Servicio Técnico Calefones SEC Chile";
 }
